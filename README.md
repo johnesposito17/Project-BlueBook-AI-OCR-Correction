@@ -2,6 +2,7 @@
 
 
 **Motivation and Backstory**
+
 Project Blue Book was the U.S. Air Force's third official investigation into unidentified flying objects and ran from 1952 to 1969.
 The aforementioned files contained 12,618 reported sightings.  Of these, 701 remained unexplained.
 While the official conclusion of the report was that UFOs pose no risk to US national security,
