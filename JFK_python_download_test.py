@@ -2,6 +2,10 @@ import requests
 import pandas as pd
 import os
 
+# This file downloads the NAID, title, OCR, and human transcription for only the first file unit of the JFK Assasination Documents
+
+
+
 # API key and headers
 NA_api_key = "lZMcWgU1LR3sZ7ZNDlxqN61BWdGAVJpN51oDI1RQ"
 headers = {
@@ -10,7 +14,7 @@ headers = {
 }
 
 # Get list of all Blue Book NAIDs
-url_NAIDlist = "https://catalog.archives.gov/api/v2/records/parentNaId/605309?limit=10000"
+url_NAIDlist = "https://catalog.archives.gov/api/v2/records/parentNaId/641323?limit=10000"
 response = requests.get(url_NAIDlist, headers=headers)
 response.raise_for_status()
 data = response.json()
