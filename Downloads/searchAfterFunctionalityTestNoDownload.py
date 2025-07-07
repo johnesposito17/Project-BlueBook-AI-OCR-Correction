@@ -29,6 +29,7 @@ while more_pages:
     # Check if the request was successful
     if response.status_code == 200:
         hits = data['body']['hits']['hits']
+        
 
         # If no more hits are found, stop pagination
         if not hits:
@@ -41,8 +42,6 @@ while more_pages:
             searchAfter = str(hits[-1]['sort'][0])
             print(f'Page {page_count}: Processed {total_results} records, last NAID: {searchAfter}')
             
-        if page_count == 10: # Our way of a limiting number of results for testing
-            exit()
     else:
         print(f"Error: {response.status_code}")
         more_pages = False
