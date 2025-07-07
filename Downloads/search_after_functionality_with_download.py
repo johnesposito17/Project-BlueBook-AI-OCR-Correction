@@ -61,13 +61,13 @@ else:
 # === Initialize output ===
 bluebook_rows = []
 file_counter = 0
-max_files = 500  # ✅ Download limit for testing
+# max_files = 2000  # ✅ Download limit for testing
 
 # === Loop over NAIDs and download files ===
 for i, row in doc_list.iterrows():
-    if file_counter >= max_files:
-        print(f"\n⚠️ Reached download cap of {max_files} files. Stopping download.")
-        break
+    # if file_counter >= max_files:
+    #     print(f"\n⚠️ Reached download cap of {max_files} files. Stopping download.")
+    #     break
 
     naid = row['NAID']
     title = row['title']
@@ -93,9 +93,9 @@ for i, row in doc_list.iterrows():
         print("  ⚠️ No digitalObjects found.")
 
     for dobj in digital_objects:
-        if file_counter >= max_files:
-            print(f"\n⚠️ Reached download cap of {max_files} files inside loop.")
-            break
+        # if file_counter >= max_files:
+        #     print(f"\n⚠️ Reached download cap of {max_files} files inside loop.")
+        #     break
 
         obj_id = dobj.get('objectId', '')
         obj_url = dobj.get('objectUrl', '')
