@@ -4,6 +4,9 @@ import time
 from openai import OpenAI
 from openai.types.chat import ChatCompletion
 
+# path names configured incorrectly
+# won't work until we have the csv pushed onto the git
+
 # === 1. Setup OpenAI client ===
 api_key = "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"
 client = OpenAI(api_key=api_key)
