@@ -23,8 +23,8 @@ For example if users want to see the mention of a specific name, place, or pheno
 Our long term goal is to the make this process generalized to other government document files collections on the national archive, promoting
 greater accessability to the declassified materials in the public domain.
 
-
-
+**Process**
+Of the 112,000+ pages digitally available, 57,434 have extracted OCR text.   Each of those pages was sent to OpenAI’s API along with our system prompt which is 412 tokens in length.  This consumed 42,424,927 input tokens ( 23,662,808 for prompts plus 18,762,119 for transmitting the original OCR text); and returned 17,289,505 output tokens.  Running the model gpt-4o-mini-2024-07-18 required approximately 80 hours of compute time, for a total cost of $16.89.    
 
 
 For the first time you can digitally search the full set of 100,00 Project Bluebook pages, from the US National Archives.  AI was used to correct the OCR errors in the original scanned documents. 
