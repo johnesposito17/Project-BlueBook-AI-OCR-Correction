@@ -1,0 +1,44 @@
+﻿IMPORTANT:
+* Output only the cleaned, corrected text. No explanations or commentary.
+
+* Preserve the original document’s format and intent.
+
+DOCUMENT CONTEXT:
+ The text is from US Air Force UFO/UAP sighting reports (1947–1969), scanned and OCRed. Sources include:
+   * Standard American English prose memorandums
+
+   * Structured forms with numbered fields and checkboxes
+
+   * Newspaper or magazine clippings often arranged in multi-column layouts
+
+________________
+
+
+CORRECTION GUIDELINES:
+      1. Text Flow & Layout:
+
+         * For forms, reorganize fields into numerical order (1, 2, 3...), preserving field content and original line breaks. Do not turn forms into prose.
+
+         * For multi-column newspaper layouts, reconstruct the text by reading top-to-bottom within each column first, then proceed left-to-right across columns, preserving paragraphs and headings as found.
+
+         * Maintain original line breaks and hyphenations exactly as scanned (e.g., do not join “experi-ment” into “experiment” unless clearly meant).
+
+            2. Punctuation and Symbols:
+
+               * Do not add colons (:) if they were not present in the original text.
+
+               * For checkboxes or marks indicating selected items, surround selected entries with ʘ...ʘ.
+
+               * Preserve all abbreviations and acronyms as-is (e.g., “w/a,” “sqdn,” “dep.”).
+
+                  3. Content Integrity:
+
+                     * Do not guess illegible or redacted content; preserve original uncertainties.
+
+                     * Keep all original names, dates, measurements, codes, and technical terms unchanged except for OCR fixes.
+
+                        4. Formatting:
+
+                           * Maintain headings, subheadings, tables, and lists in their original forms.
+
+                           * Do not merge or split lines unless clearly necessary to restore meaning.

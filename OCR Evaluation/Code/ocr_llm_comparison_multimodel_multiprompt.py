@@ -1,9 +1,5 @@
-import os
-# import sys
-# sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-import sys
-print(sys.path)
 import pandas as pd
+import os
 import time
 import requests
 import json
@@ -11,18 +7,18 @@ from openai import OpenAI
 from openai.types.chat import ChatCompletion
 import string_comparison
 
-
-
 # --- Configuration ---
 MODELS = ["gpt-4o-mini", "gpt-4o", "deepseek-chat"]
 
-PROMPT_FILE_PATH = "/Users/johnesposito/Documents/GitHub/Project-BlueBook-AI-OCR-Correction/Prompts/JohnBlueBookPrompt4.txt"
-INPUT_CSV_PATH = "/Users/johnesposito/Documents/GitHub/Project-BlueBook-AI-OCR-Correction/OCR Evaluation/Code/FilesForHumanTranscription - Sheet1.csv"
-OUTPUT_CSV_NAME = "OpenAI DeepSeek Eval Form Type 1-11.csv"
-OUTPUT_CSV_PATH = os.path.join(os.path.dirname(INPUT_CSV_PATH), OUTPUT_CSV_NAME)
+PROMPT_FILE_PATH = "/Users/johnesposito/Documents/GitHub/Project-BlueBook-AI-OCR-Correction/Prompts/JohnBlueBookPrompt5.txt"
+INPUT_CSV_PATH = "/Users/johnesposito/Documents/GitHub/Project-BlueBook-AI-OCR-Correction/OCR Evaluation/Code/HumanTranscriptions100Pages - Sheet1 (1).csv"
+OUTPUT_CSV_NAME = "OpenAI DeepSeek Eval Newspaper.csv"
+OUTPUT_DIR = "/Users/johnesposito/Documents/GitHub/Project-BlueBook-AI-OCR-Correction/OCR Evaluation/Results"
+OUTPUT_CSV_PATH = os.path.join(OUTPUT_DIR, OUTPUT_CSV_NAME)
+
 
 # 🔢 List of NAIDs you want to evaluate (replace with your actual list)
-NAIDS_TO_PROCESS = [28992946, 28934561, 28986666, 28974433]  # Example
+NAIDS_TO_PROCESS = [28976636, 28996954, 28964100, 28932295]  # Example
 
 # --- Load Prompt ---
 def load_prompt(file_path):
