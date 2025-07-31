@@ -5,20 +5,25 @@ import requests
 import json
 from openai import OpenAI
 from openai.types.chat import ChatCompletion
+from google import genai
+from google.genai import types
 import string_comparison
 import sys
 import getpass
 
 # --- Configuration ---
-MODELS = ["gpt-4o-mini", "gpt-4o", "gemini-2.5-pro", "gemini-2.5-flash"]
+MODELS = ["gpt-4o-mini", "gpt-4o", "deepseek-chat", "gemini-2.5-flash", "gemini-2.5-flash-lite"]
 
-PROMPT_FILE_PATH = "/Users/johnesposito/Documents/GitHub/Project-BlueBook-AI-OCR-Correction/Prompts/GenericOCRPrompt.txt"
-INPUT_CSV_PATH = "/Users/johnesposito/Documents/GitHub/Project-BlueBook-AI-OCR-Correction/OCR Evaluation/Code/HumanTranscriptions100Pages - Sheet1 (1).csv"
-OUTPUT_CSV_NAME = "OpenAI_DeepSeek_Gemini_Eval_Prompt6_v3.csv"
+
+
+
+PROMPT_FILE_PATH = "/Users/johnesposito/Documents/GitHub/Project-BlueBook-AI-OCR-Correction/Prompts/Prompt8.txt"
+INPUT_CSV_PATH = "/Users/johnesposito/Documents/GitHub/Project-BlueBook-AI-OCR-Correction/OCR Evaluation/Code/HumanTranscriptions100Pages - Sheet1 (2).csv"
+OUTPUT_CSV_NAME = "Gemini_Eval_Forms1-11_Prompt7.csv"
 OUTPUT_DIR = "/Users/johnesposito/Documents/GitHub/Project-BlueBook-AI-OCR-Correction/OCR Evaluation/Results"
 OUTPUT_CSV_PATH = os.path.join(OUTPUT_DIR, OUTPUT_CSV_NAME)
 
-NAIDS_TO_PROCESS = [28976636, 28996954, 28964100, 28932295]
+NAIDS_TO_PROCESS = [28993832, 29000943, 28984715, 28977491, 28984139, 28994552, 28974530, 28991590]
 
 # --- Load Prompt ---
 def load_prompt(file_path):
@@ -32,14 +37,16 @@ system_prompt = load_prompt(PROMPT_FILE_PATH)
 
 # --- API Keys (entered by user) ---
 print("🔑 Please enter your API keys (they will not be displayed):")
-openai_api_key = getpass.getpass("OpenAI API Key: ").strip()
-deepseek_api_key = getpass.getpass("DeepSeek API Key: ").strip()
-gemini_api_key = getpass.getpass("Gemini API Key: ").strip()
+openai_api_key = input("OpenAI API Key: ").strip()
+deepseek_api_key = input("DeepSeek API Key: ").strip()
+gemini_api_key = input("Gemini API Key: ").strip()
 
 if not all([openai_api_key, deepseek_api_key, gemini_api_key]):
     raise ValueError("❌ One or more API keys are missing.")
 
-client = OpenAI(api_key=openai_api_key)
+openai_client = OpenAI(api_key=openai_api_key)
+genai_client = genai.Client(api_key=gemini_api_key)
+
 
 # --- Load and Filter Input CSV ---
 try:
@@ -68,10 +75,10 @@ def get_llm_correction(ocr_text: str, model_name: str, system_prompt: str) -> st
                 {"role": "system", "content": system_prompt},
                 {"role": "user", "content": ocr_text}
             ]
-            response: ChatCompletion = client.chat.completions.create(
+            response: ChatCompletion = openai_client.chat.completions.create(
                 model=model_name,
                 messages=messages,
-                temperature=0.2,
+                temperature=0.6,
                 timeout=300
             )
             return response.choices[0].message.content.strip()
@@ -88,7 +95,7 @@ def get_llm_correction(ocr_text: str, model_name: str, system_prompt: str) -> st
                     {"role": "system", "content": system_prompt},
                     {"role": "user", "content": ocr_text}
                 ],
-                "temperature": 0.2
+                "temperature": 0.6
             }
             response = requests.post(url, headers=headers, json=payload, timeout=300)
             response.raise_for_status()
@@ -96,30 +103,20 @@ def get_llm_correction(ocr_text: str, model_name: str, system_prompt: str) -> st
             return result['choices'][0]['message']['content'].strip()
 
         elif model_name.startswith("gemini-"):
-            url = f"https://generativelanguage.googleapis.com/v1beta/models/{model_name}:generateContent"
-            headers = {"Content-Type": "application/json"}
-            params = {"key": gemini_api_key}
-            payload = {
-                "contents": [
-                    {"role": "user", "parts": [{"text": ocr_text}]}
-                ],
-                "system_instruction": {
-                    "parts": [{"text": system_prompt}]
-                },
-                "generationConfig": {
-                    "temperature": 0.2
-                }
-            }
-            response = requests.post(url, headers=headers, params=params, json=payload, timeout=300)
-            response.raise_for_status()
-            result = response.json()
-            if "candidates" in result and result["candidates"] and "content" in result["candidates"][0] and "parts" in result["candidates"][0]["content"] and result["candidates"][0]["content"]["parts"]:
-                return result["candidates"][0]["content"]["parts"][0]["text"].strip()
-            else:
-                return f"EMPTY_RESPONSE_FROM_API: {result.get('promptFeedback', 'No feedback provided')}"
+            PROMPT_FILE_PATH = "/Users/johnesposito/Documents/GitHub/Project-BlueBook-AI-OCR-Correction/Prompts/GenericOCRPrompt.txt"
+            with open(PROMPT_FILE_PATH, 'r', encoding='utf-8') as file:
+                system_prompt = file.read()
 
-        else:
-            return f"UNSUPPORTED_MODEL: {model_name}"
+            response = genai_client.models.generate_content(
+                model=model_name,
+                contents=f"{system_prompt}\n\n{ocr_text}",
+                config=types.GenerateContentConfig(
+                    thinking_config=types.ThinkingConfig(thinking_budget=0),
+                    temperature=0.6
+                ),
+            )
+            return response.text
+            
 
     except requests.exceptions.Timeout:
         print(f"❌ Timeout error with model {model_name}.")
