@@ -16,7 +16,7 @@ MODELS = ["gpt-4o-mini", "gpt-4o", "deepseek-chat", "gemini-2.5-flash", "gemini-
 
 
 
-SYSTEM_PROMPT = "You are an assistant trained to correct text from OCR outputs that may contain errors. Your task is to reconstruct the likely original text. Restore the text to its original form, including handling non-standard elements that aligns with their intended meaning and use."
+SYSTEM_PROMPT_FILE_PATH = "/Users/johnesposito/Documents/GitHub/Project-BlueBook-AI-OCR-Correction/Prompts/SystemPrompt.txt"
 PROMPT_FILE_PATH = "/Users/johnesposito/Documents/GitHub/Project-BlueBook-AI-OCR-Correction/Prompts/Prompt8.txt"
 INPUT_CSV_PATH = "/Users/johnesposito/Documents/GitHub/Project-BlueBook-AI-OCR-Correction/OCR Evaluation/Code/HumanTranscriptions100Pages - Sheet1 (2).csv"
 OUTPUT_CSV_NAME = "Gemini_Eval_Forms1-11_Prompt7.csv"
@@ -24,6 +24,10 @@ OUTPUT_DIR = "/Users/johnesposito/Documents/GitHub/Project-BlueBook-AI-OCR-Corre
 OUTPUT_CSV_PATH = os.path.join(OUTPUT_DIR, OUTPUT_CSV_NAME)
 
 NAIDS_TO_PROCESS = [28993832, 29000943, 28984715, 28977491, 28984139, 28994552, 28974530, 28991590]
+
+# --- Load System Prompt ---
+with open(SYSTEM_PROMPT_FILE_PATH, "r", encoding="utf-8") as file:
+    SYSTEM_PROMPT = file.read()
 
 # --- Load Prompt ---
 with open(PROMPT_FILE_PATH, "r", encoding="utf-8") as f:
@@ -66,23 +70,25 @@ def get_llm_correction(ocr_text, model_name):
         return response.choices[0].message.content.strip()
 
     elif model_name.startswith("deepseek-"):
-        url = "https://api.deepseek.com/chat/completions"
-        headers = {
-            "Content-Type": "application/json",
-            "Authorization": f"Bearer {deepseek_api_key}"
-        }
-        payload = {
-            "model": model_name,
-            "messages": [
-                {"role": "system", "content": SYSTEM_PROMPT},
-                {"role": "user", "content": prompt + ocr_text}
-            ],
-            "temperature": 0.6
-        }
-        response = requests.post(url, headers=headers, json=payload, timeout=300)
-        response.raise_for_status()
-        result = response.json()
-        return result['choices'][0]['message']['content'].strip()
+        return "deepseek"
+    #     url = "https://api.deepseek.com/chat/completions"
+    #     headers = {
+    #         "Content-Type": "application/json",
+    #         "Authorization": f"Bearer {deepseek_api_key}"
+    #     }
+    #     payload = {
+    #         "model": model_name,
+    #         "messages": [
+    #             {"role": "system", "content": SYSTEM_PROMPT},
+    #             {"role": "user", "content": prompt + ocr_text}
+    #         ],
+    #         "temperature": 0.6
+    #     }
+    #     response = requests.post(url, headers=headers, json=payload, timeout=300)
+    #     response.raise_for_status()
+    #     result = response.json()
+    #     return result['choices'][0]['message']['content'].strip()
+    
 
     elif model_name.startswith("gemini-"):
         response = genai_client.models.generate_content(
