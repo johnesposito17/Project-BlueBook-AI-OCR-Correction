@@ -76,54 +76,44 @@ ATIC FORM 329 (REV 25 SEP 52)
 2. LOCATION 2621N 12650E (FAREAST)  
 3. DATE-TIME GROUP GMT 0311157  
 4. TYPE OF OBSERVATION Ground-Visual  
-   Air-Visual  
-   Ground-Radar  
-   Air-Intercept Radar  
-   Was Aircraft  
-   Probably Aircraft  
-   Possibly Aircraft  
 5. PHOTOS Yes  
 6. SOURCE Military  
-   Probably Astronomical  
-   Possibly Astronomical  
-   No  
-   Was Astronomical  
 7. LENGTH OF OBSERVATION 17 min  
-   Unknown  
-   Insufficient Data for Evaluation  
 8. NUMBER OF OBJECTS Prob  
 9. COURSE NE  
 10. BRIEF SUMMARY OF SIGHTING Silver white objet observed 40° elev, 280° az. Disappearing over horizon at 050° after straight flight path in sight 17 min. Multiple sightings.  
 11. COMMENTS Description, duration, and flight path of objt is characteristic of satellite Echo I. A check indicates that Echo I was in position reported by witnesses. It is therefore concluded that objt observed was probably Echo I.  
-12. CONCLUSIONS Was Balloon  
-   Probably Balloon  
-   Possibly Balloon",0.38387096774193546,6.89,"PROJECT 10073 RECORD CARD
+12. CONCLUSIONS Probably Balloon  
+Was Balloon  
+Possibly Balloon  
+Was Aircraft  
+Probobly Aireraft  
+Possibly Aircraft  
+Was Astronomisel  
+Probably Astronomical  
+Possibly Astronomical  
+No  
+Other  
+Insufficient Data for Evaluation  
+Unknown  
+Air-Visual  
+Air-Intercept Radar  
+Echo",0.20430107526881722,4.42,"PROJECT 10073 RECORD CARD
 
-1. DATE 3 Aug 61
+1. DATE 3 Aug 61  
+2. LOCATION 2621N 12650E (FAREAST)  
+3. DATE-TIME GROUP Local 2015 GMT 0311157  
+4. TYPE OF OBSERVATION ʘGround-Visualʘ Ground-Radar Air-Visual Air-Intercept Radar  
+5. PHOTOS Yes No  
+6. SOURCE ʘMilitaryʘ Other  
+s. NUMBER OF OBJECTS 1  
+7. LENGTH OF OBSERVATION 17 min  
+9. COURSE NE  
+10. BRIEF SUMMARY OF SIGHTING Silver white object observed 40° elev, 280° az. Disappearing over horizon at 050° after straight flight path in sight 17 min. Multiple sightings.  
+11. COMMENTS Description, duration, and flight path of object is characteristic of satellite Echo I. A check indicates that Echo I was in position reported by witnesses. It is therefore concluded that object observed was probably Echo I.  
+12. CONCLUSIONS Was Balloon Probably Balloon Possibly Balloon Was Aircraft Probably Aircraft Possibly Aircraft Was Astronomical Probably Astronomical Possibly Astronomical Insufficient Data for Evaluation Unknown  
 
-2. LOCATION 2621N 12650E (FAREAST)
-
-3. DATE-TIME GROUP Local 2015 GMT 0311157
-
-4. TYPE OF OBSERVATION Ground-Visual Air-Visual ʘAir-Intercept Radarʘ Ground-Radar
-
-5. PHOTOS Yes ʘNoʘ
-
-6. SOURCE ʘMilitaryʘ Other
-
-7. LENGTH OF OBSERVATION 17 min
-
-8. NUMBER OF OBJECTS Unknown
-
-9. COURSE NE
-
-10. BRIEF SUMMARY OF SIGHTING Silver white object observed 40° elev, 280° az. Disappearing over horizon at 050° after straight flight path in sight 17 min. Multiple sightings.
-
-11. COMMENTS Description, duration, and flight path of object is characteristic of satellite Echo I. A check indicates that Echo I was in position reported by witnesses. It is therefore concluded that object observed was probably Echo I.
-
-12. CONCLUSIONS Was Balloon Probably Balloon Possibly Balloon Was Aircraft ʘProbably Aircraftʘ Possibly Aircraft Was Astronomical ʘProbably Astronomicalʘ Possibly Astronomical Insufficient Data for Evaluation
-
-ATIC FORM 329 (REV 25 SEP 52)",0.1378238341968912,7.71,"PROJECT 10073 RECORD CARD  
+ATIC FORM 329 (REV 25 SEP 52)",0.13650465356773525,6.23,"PROJECT 10073 RECORD CARD  
 1. DATE 3 Aug 61  
 2. LOCATION 2621N 12650E (FAREAST)  
 3. DATE-TIME GROUP Local 2015 GMT 0311157  
@@ -137,7 +127,7 @@ ATIC FORM 329 (REV 25 SEP 52)",0.1378238341968912,7.71,"PROJECT 10073 RECORD CAR
 11. COMMENTS Description, duration, and flight path of objt is characteristic of satellite Echo I. A check indicates that Echo I was in position reported by witnesses. It is therefore concluded that objt observed was probably Echo I.  
 12. CONCLUSIONS ʘProbably Balloonʘ Was Balloon Possibly Balloon ʘProbably Aircraftʘ Was Aircraft Possibly Aircraft ʘProbably Astronomicalʘ Was Astronomical Possibly Astronomical Insufficient Data for Evaluation  
 
-ATIC FORM 329 (REV 25 SEP 52)",0.12930135557872785,19.79,"PROJECT 10073 RECORD CARD
+ATIC FORM 329 (REV 25 SEP 52)",0.12930135557872785,18.33,"PROJECT 10073 RECORD CARD
 1. DATE 3 Aug 61
 2. LOCATION 2621N 12650E (FAREAST)
 3. DATE-TIME GROUP Local 2015 GMT 0311157
@@ -147,13 +137,13 @@ ATIC FORM 329 (REV 25 SEP 52)",0.12930135557872785,19.79,"PROJECT 10073 RECORD C
 7. LENGTH OF OBSERVATION 17 min
 8. NUMBER OF OBJECTS Unknown
 9. COURSE NE
-10. BRIEF SUMMARY OF SIGHTING Silver white objet ob-served 40° elev, 280° az. Disappearing over horizon at 050° after straight flight path in sight 17 min. Multiple sightings.
+10. BRIEF SUMMARY OF SIGHTING Silver white objet observed 40° elev, 280° az. Disappearing over horizon at 050° after straight flight path in sight 17 min. Multiple sightings.
 11. COMMENTS Description, duration, and flight path of objt is characteristic of satellite Echo I. A check indicates that Echo I was in position reported by witnesses. It is therefore concluded that objt observed was probably Echo I.
-12. CONCLUSIONS Was Balloon Probably Balloon Possibly Balloon Was Aircraft Probobly Aireraft Possibly Aircraft Was Astronomisel Probably Astronomical Possibly Astronomical Insufficient Data for Evaluation
-ATIC FORM 329 (REV 25 SEP 52)",0.10718002081165452,1.68,"PROJECT 10073 RECORD CARD
+12. CONCLUSIONS Was Balloon Probably Balloon Possibly Balloon Was Aircraft Probobly Aireraft Possibly Aircraft Was Astronomical Probably Astronomical Possibly Astronomical Insufficient Data for Evaluation
+ATIC FORM 329 (REV 25 SEP 52)",0.10625,1.95,"PROJECT 10073 RECORD CARD
 1. DATE 3 Aug 61
 2. LOCATION 2621N 12650E (FAREAST)
-3. DATE-TIME GROUP Local 2015 GMT 0311157
+3. DATE-TIME GROUP GMT 0311157
 4. TYPE OF OBSERVATION Ground-Visual
 5. PHOTOS No
 6. SOURCE Military
@@ -162,7 +152,21 @@ ATIC FORM 329 (REV 25 SEP 52)",0.10718002081165452,1.68,"PROJECT 10073 RECORD CA
 9. COURSE NE
 10. BRIEF SUMMARY OF SIGHTING Silver white objet ob- served 40° elev, 280° az. Disappearing over horizon at 050° after straight flight path in sight 17 min.
 11. COMMENTS Description, duration, and flight path of objt is characteristic of satellite Echo I. A check indicates that Echo I was in position reported by witnesses. It is therefore concluder that objt observed was probably Echo I.
-12. CONCLUSIONS Was Balloon Probably Balloon Possibly Balloon Was Aircraft Probobly Aireraft Possibly Aircraft Was Astronomisel Probably Astronomical Possibly Astronomical Echo ʘEcho Iʘ",0.21827956989247313,1.32
+12. CONCLUSIONS Was Balloon
+Probably Balloon
+Possibly Balloon
+Was Aircraft
+Probobly Aireraft
+Possibly Aircraft
+Was Astronomisel
+Probably Astronomical
+Possibly Astronomical
+Echo
+Prob
+Other
+Insufficient Data for Evaluation
+Unknown
+ATIC FORM 329 (REV 25 SEP 52)",0.1860215053763441,1.22
 29000943,"
 PROJECT 10073 RECORD
 1. DATE - TIME .GROUP
@@ -251,57 +255,103 @@ UNIDENTIFIED
 Report received two years after observation. Too old to warrant additional investigation. No apparent solution.  
 11. BRIEF SUMMARY AND ANALYSIS  
 8 - 10 lights moving at random formed into a circle and then flew away. Brighter than stars. Darting in all directions for 30 seconds, flying in a circle for 30 seconds, then disappeared to North in a few seconds. Report made two years after sighting.  
+
 FORM  
 FTD SEP 63 0-329 (TDE)  
-Previous editions of this form may be used.",0.03088803088803089,5.99,"PROJECT 10073 RECORD
+Previous editions of this form may be used.",0.03088803088803089,3.69,"PROJECT 10073 RECORD
 
-1. DATE - TIME GROUP Summer 1963
+1. DATE - TIME GROUP  
+Summer 1963
 
-2. LOCATION Middletown, New York
+2. LOCATION  
+Middletown, New York
 
-3. SOURCE Civilian
+3. SOURCE  
+Civilian
 
-4. NUMBER OF OBJECTS 8 - 10
+4. NUMBER OF OBJECTS  
+8 - 10
 
-5. LENGTH OF OBSERVATION About 1 Minute
+5. LENGTH OF OBSERVATION  
+About 1 Minute
 
-6. TYPE OF OBSERVATION Ground-Visual
+6. TYPE OF OBSERVATION  
+Ground-Visual
 
-7. COURSE Maneuvered
+7. COURSE  
+Maneuvered
 
-8. PHOTOS Yes No ʘNoʘ
+8. PHOTOS  
+Yes No ʘNoʘ
 
-9. PHYSICAL EVIDENCE Yes No ʘNoʘ
+9. PHYSICAL EVIDENCE  
+Yes No ʘNoʘ
 
-10. CONCLUSION UNIDENTIFIED
+10. CONCLUSION  
+UNIDENTIFIED
 
-11. BRIEF SUMMARY AND ANALYSIS 8 - 10 lights moving at random formed into a circle and then flew away. Brighter than stars. Darting in all directions for 30 seconds, flying in a circle for 30 seconds, then disappeared to North in a few seconds. Report made two years after sighting. Report received two years after observation. Too old to warrant additional investigation. No apparent solution.
+11. BRIEF SUMMARY AND ANALYSIS  
+8 - 10 lights moving at random formed into a circle and then flew away. Brighter than stars. Darting in all directions for 30 seconds, flying in a circle for 30 seconds, then disappeared to North in a few seconds. Report made two years after sighting.
 
-FORM FTD SEP 63 0-329 (TDE) Previous editions of this form may be used.",0.3256113256113256,11.02,"PROJECT 10073 RECORD  
-1 DATE - TIME - GROUP Summer 1963  
-2 LOCATION Middletown, New York  
-3 SOURCE Civilian  
-4 NUMBER OF OBJECTS 8 - 10  
-5 LENGTH OF OBSERVATION About 1 Minute  
-6 TYPE OF OBSERVATION Ground-Visual  
-7 COURSE ʘManuveredʘ  
-8 PHOTOS ʘNoʘ Yes  
-9 PHYSICAL EVIDENCE ʘNoʘ Yes  
-10 CONCLUSION UNIDENTIFIED  
-11 BRIEF SUMMARY AND ANALYSIS Report received two years after observation. Too old to warrent additional investigation. No apparent soultion. 8 - 10 lights moving at random fromed into a circle and then flew away. Brighter than stars. Darting in all directions for 30 seconds, flying in a circle for 30 seconds, then dis-appeared to North in a few seconds. Report made two years after sighting.  
-13 FORM FTD SEP 63 0-329 (TDE) Previous editione of this forma may be used.",0.1364221364221364,15.06,"PROJECT 10073 RECORD
+Report received two years after observation. Too old to warrant additional investigation. No apparent solution.
+
+FORM  
+FTD SEP 63 0-329 (TDE)  
+Previous editions of this form may be used.",0.3256113256113256,5.63,"PROJECT 10073 RECORD  
+1 DATE - TIME - GROUP  
+Summer 1963  
+
+2 LOCATION  
+Middletown, New York  
+
+3 SOURCE  
+Civilian  
+
+4 NUMBER OF OBJECTS  
+8 - 10  
+
+5 LENGTH OF OBSERVATION  
+About 1 Minute  
+
+6 TYPE OF OBSERVATION  
+ʘGround-Visualʘ  
+
+7 COURSE  
+ʘManuveredʘ  
+
+8 PHOTOS  
+ʘYesʘ No  
+
+9 PHYSICAL EVIDENCE  
+Yes ʘNoʘ  
+
+10 CONCLUSION  
+UNIDENTIFIED  
+Report received two years after observation. Too old to warrent  
+additional investigation. No apparent soultion.  
+
+11 BRIEF SUMMARY AND ANALYSIS  
+8 - 10 lights moving at random fromed into a circle and then  
+flew away. Brighter than stars. Darting in all directions  
+for 30 seconds, flying in a circle for 30 seconds, then dis-  
+appeered to North in a few seconds. Report made two years  
+after sighting.  
+
+FORM  
+FTD SEP 63 0-329 (TDE)  
+Previous editione of this forma may be used.",0.055341055341055344,16.49,"PROJECT 10073 RECORD
 1. DATE - TIME .GROUP Summer 1963
 2. LOCATION Middletown, New York
 3. SOURCE Civilian
 4. NUMBER OF OBJECTS 8 - 10
-5. LENGTH OF OBSERVATION About 1 Minute
+5. LENGTH OF OBSERVATION About 1 Minutex
 6. TYPE OF OBSERVATION Ground-Visual
 7. COURSE Manuvered
 8. PHOTOS Yes ʘNoʘ
 9. PHYSICAL EVIDENCE Yes ʘNoʘ
 10. CONCLUSION UNIDENTIFIED Report received two years after observation. Too old to warrent additional investigation. No apparent soultion.
 11. BRIEF SUMMARY AND ANALYSIS 8 - 10 lights moving at random fromed into a circle and then flew away. Brighter than stars. Darting in all directions for 30 seconds, flying in a circle for 30 seconds, then dis- appeered to North in a few seconds. Report made two years after sighting.
-FORM FTD SEP 63 0-329 (TDE) Previous editione of this forma may be used.",0.039897039897039896,1.32,"PROJECT 10073 RECORD
+FORM FTD SEP 63 0-329 (TDE) Previous editione of this forma may be used.",0.04118404118404118,1.37,"PROJECT 10073 RECORD
 1. DATE - TIME .GROUP Summer 1963
 2. LOCATION Middletown, New York
 3. SOURCE Civilian
@@ -310,10 +360,13 @@ FORM FTD SEP 63 0-329 (TDE) Previous editione of this forma may be used.",0.0398
 6. TYPE OF OBSERVATION Ground-Visual
 7. COURSE Manuvered
 8. PHOTOS Yes
-9. PHYSICAL EVIDENCE Yes
-10. CONCLUSION UNIDENTI FIED Report received two years after observation. Too old to warrent additional investigation. No apparent soultion.
+9. PHYSICAL EVIDENCE No
+10. CONCLUSION UNIDENTI FIED
+Report received two years after observation. Too old to warrent additional investigation. No apparent soultion.
 11. BRIEF SUMMARY AND ANALYSIS 8 - 10 lights moving at random fromed into a circle and then flew away. Brighter than stars. Darting in all directions for 30 seconds, flying in a circle for 30 seconds, then dis- appeared to North in a few seconds. Report made two years after sighting.
-FORM FTD SEP 63 0-329 (TDE) Previous editione of this forma may be used.",0.039897039897039896,1.02
+FORM
+FTD SEP 63 0-329 (TDE)
+Previous editione of this forma may be used.",0.036036036036036036,0.91
 28984715,"
 PROJECT 10073 RECORD CARD
 1. DATE
@@ -381,55 +434,42 @@ ATIC FORM 329 (REV 26 SEP 52)
 2. LOCATION West Carrolton, Ohio  
 3. DATE-TIME GROUP GMT 28/05/177  
 4. TYPE OF OBSERVATION Ground-Visual  
-   Air Visual  
-   Ground-Radar  
-   Air-Intercept Radar  
-   Was Balloon  
-   Probably Balloon  
-   Possibly Balloon  
-   Was Aircraft  
-   Probably Aircraft  
-   Possibly Aircraft  
-   Was Astronomical Meteor  
-   Probably Astronomical  
-   Possibly Astronomical  
-5. PHOTOS Yes  
+5. PHOTOS Yos  
 6. SOURCE Civilian  
 7. LENGTH OF OBSERVATION 5 secs  
 8. NUMBER OF OBJECTS one  
 9. COURSE Unknown  
-   Other  
-   Insufficient Data for Evaluation  
 10. BRIEF SUMMARY OF SIGHTING White brilliant obj moving in a straight line Apparently a meteor at extreme alt. to the North. No tail. Like a star only very brilliant.  
-11. COMMENTS  
+11. COMMENTS Insufficient Data for Evaluation  
 12. CONCLUSIONS Probably Balloon  
-ATIC FORM 329 (REV 26 SEP 52)",0.603494623655914,5.32,"PROJECT 10073 RECORD CARD
+Was Balloon  
+Possibly Balloon  
+Was Aircraft  
+Probably Aircraft  
+Possibly Aircraft  
+Was Astronomical Meteor  
+Probably Astronomical  
+No  
+Possibly Astronomical  
+Air Visual  
+Air-Intercept Radar  
+Ground-Radar  
+Other",0.27023319615912206,3.66,"PROJECT 10073 RECORD CARD
 
-1. DATE 28 Sep 59
+1. DATE 28 Sep 59  
+2. LOCATION West Carrolton, Ohio  
+3. DATE-TIME GROUP GMT 28/05/177  
+4. TYPE OF OBSERVATION Ground-Visual ʘAir Visualʘ Ground-Rodar Air-Intercept Radar  
+5. PHOTOS Yes ʘNoʘ  
+6. SOURCE ʘCivilianʘ  
+7. LENGTH OF OBSERVATION 5 secs  
+8. NUMBER OF OBJECTS one  
+9. COURSE IN  
+10. BRIEF SUMMARY OF SIGHTING White brilliant obj moving in a straight line to the North. No tail. Like a star only very brilliant.  
+11. COMMENTS Apparently a meteor at extreme alt.  
+12. CONCLUSIONS Was Balloon Probably Balloon Possibly Balloon Was Aircraft Probably Aircraft Possibly Aircraft Was Astronomicol Meteor ʘProbably Astronomicalʘ Possibly Astronomicol Other Insufficient Data for Evaluation Unknown  
 
-2. LOCATION West Carrolton, Ohio
-
-3. DATE-TIME GROUP GMT 28/05/177
-
-4. TYPE OF OBSERVATION Ground-Visual Air Visual ʘGround-Radarʘ Air-Intercept Radar
-
-5. PHOTOS Yes No
-
-6. SOURCE Civilian
-
-7. LENGTH OF OBSERVATION 5 secs
-
-8. NUMBER OF OBJECTS one
-
-9. COURSE IN
-
-10. BRIEF SUMMARY OF SIGHTING White brilliant obj moving in a straight line to the North. No tail. Like a star only very brilliant.
-
-11. COMMENTS Apparently a meteor at extreme alt.
-
-12. CONCLUSIONS Was Balloon Probably Balloon Possibly Balloon Was Aircraft Probably Aircraft Possibly Aircraft Was Astronomical Meteor Probably Astronomical Possibly Astronomical Other Insufficient Data for Evaluation Unknown
-
-ATIC FORM 329 (REV 26 SEP 52)",0.11050477489768076,6.56,"PROJECT 10073 RECORD CARD  
+ATIC FORM 329 (REV 26 SEP 52)",0.11323328785811733,4.44,"PROJECT 10073 RECORD CARD  
 1. DATE 28 Sep 59  
 2. LOCATION West Carrollton, Ohio  
 3. DATE-TIME GROUP GMT 28/05/177  
@@ -447,29 +487,31 @@ Air-Intercept Radar
 White brilliant obj moving in a straight line to the North. No tail. Like a star only very brilliant.  
 11. COMMENTS Apparently a meteor at extreme alt.  
 12. CONCLUSIONS  
-ʘProbably Balloonʘ  
+ʘWas Balloonʘ  
+Probably Balloon  
 Possibly Balloon  
 ʘWas Aircraftʘ  
 Probably Aircraft  
-ʘWas Astronomicol Meteorʘ  
+Possibly Aircraft  
+ʘWas Astronomical Meteorʘ  
 Probably Astronomical  
-Possibly Astronomicol  
+Possibly Astronomical  
 Other  
 Insufficient Data for Evaluation  
 Unknown  
 
-ATIC FORM 329 (REV 26 SEP 52)",0.13031550068587106,15.15,"PROJECT 10073 RECORD CARD
+ATIC FORM 329 (REV 26 SEP 52)",0.08904109589041095,15.53,"PROJECT 10073 RECORD CARD
 1. DATE 28 Sep 59
 2. LOCATION West Carrolton, Ohio
 3. DATE-TIME GROUP 28/05/177
 4. TYPE OF OBSERVATION
-Local ʘGround-Visualʘ Ground-Rodar
+Local Ground-Visual ʘGround-Rodarʘ
 GMT Air Visual Air-Intercept Radar
 5. PHOTOS Yes ʘNoʘ
 6. SOURCE Civilian
 7. LENGTH OF OBSERVATION 5 secs
 8. NUMBER OF OBJECTS one
-9. COURSE IN
+9. COURSE Unknown
 10. BRIEF SUMMARY OF SIGHTING White brilliant obj moving in a straight line to the North. No tail. Like a star only very brilliant.
 11. COMMENTS Apparently a meteor at extreme alt.
 12. CONCLUSIONS
@@ -484,21 +526,21 @@ Probobly Astronomical
 Possibly Astronomicol
 Other
 Insufficient Data for Evaluation
-Unknown
-ATIC FORM 329 (REV 26 SEP 52)",0.10690121786197564,1.64,"PROJECT 10073 RECORD CARD
+ATIC FORM 329 (REV 26 SEP 52)
+na",0.12990527740189445,1.44,"PROJECT 10073 RECORD CARD
 1. DATE 28 Sep 59
 2. LOCATION West Carrolton, Ohio
 3. DATE-TIME GROUP GMT 28/05/177
-4. TYPE OF OBSERVATION ʘLocalʘ ʘGround-Visualʘ Civilian
-5. PHOTOS No
-6. SOURCE Civilian
+4. TYPE OF OBSERVATION ʘGround-Visualʘ Local Ground-Rodar Air Visual Air-Intercept Radar
+5. PHOTOS Yes No
+6. SOURCE ʘCivilianʘ Other
 7. LENGTH OF OBSERVATION 5 secs
 8. NUMBER OF OBJECTS one
 9. COURSE IN
 10. BRIEF SUMMARY OF SIGHTING White brilliant obj moving in a straight line to the North. No tail. Like a star only very brilliant.
 11. COMMENTS Apparently a meteor at extreme alt.
-12. CONCLUSIONS ʘProbably Balloonʘ Was Bolloon Possibly Balloon Was Aircraft Probably Aircraft Possibly Aircraft Was Astronomicol Meteor Probobly Astronomical Possibly Astronomicol Other Insufficient Data for Evaluation Unknown
-ATIC FORM 329 (REV 26 SEP 52) na",0.1646090534979424,1.02
+12. CONCLUSIONS Was Bolloon ʘProbably Balloonʘ Possibly Balloon Was Aircraft Probably Aircraft Was Astronomicol Meteor Probobly Astronomical Possibly Astronomicol Insufficient Data for Evaluation Unknown
+ATIC FORM 329 (REV 26 SEP 52) na",0.14266117969821673,1.29
 28977491,"
 PROJECT 10073 RECORD CARD
 1. DATE
@@ -576,15 +618,32 @@ ATIC FORM 329 (REV 25 SEP 52)",0.623686723973257,"PROJECT 10073 RECORD CARD
 1. DATE 18 Mar 58  
 2. LOCATION Ogallala, Nebraska  
 3. DATE-TIME GROUP GMT 18/1715Z, 1815, 1830Z  
-4. TYPE OF OBSERVATION Ground-Visual ʘLocalʘ Ground-Radar Air-Visual Air-Intercept Radar  
-5. PHOTOS Yes ʘXLʘ No  
-6. SOURCE Civilian ʘProbably Astronomicalʘ Possibly Astronomical Mistaken  
+4. TYPE OF OBSERVATION Ground-Radar  
+   Local  
+   Ground-Visual  
+   Air-Visual  
+   Air-Intercept Radar  
+   Was Balloon  
+   Probably Balloon  
+   Possibly Balloon  
+   Was Aircraft  
+   Probably Aircraft  
+   Possibly Aircraft  
+   Was Astronomical  
+   Probably Astronomical  
+   Possibly Astronomical  
+   Mistaken  
+5. PHOTOS Yes  
+   XL  
+   No  
+6. SOURCE Civilian  
 7. LENGTH OF OBSERVATION 20 mins  
 8. NUMBER OF OBJECTS one  
-9. COURSE Stationary South & Unknown  
+9. COURSE Stationary  
+   South & Unknown  
 10. BRIEF SUMMARY OF SIGHTING Cigar or blimp shaped obj, about size of a paper clip. Color appeared to be silver w/a reflecting quality. Obj appeared to stretch in length & thin out while moving in a Southerly direction. See case file for additional info.  
 11. COMMENTS Probably a conventional a/c. and balloon in area. 3 sightings. Balloon stationary obj. A2C established over area at time of sighting were B-47's & B-52's on training missions.  
-12. CONCLUSIONS Was Balloon ʘProbably Balloonʘ Possibly Balloon",0.19333333333333333,11.99,"PROJECT 10073 RECORD CARD
+12. CONCLUSIONS Insufficient Data for Evaluation Was Balloon Probably Balloon",0.301556420233463,4.34,"PROJECT 10073 RECORD CARD
 
 1. DATE 18 Mar 58
 
@@ -592,56 +651,76 @@ ATIC FORM 329 (REV 25 SEP 52)",0.623686723973257,"PROJECT 10073 RECORD CARD
 
 3. DATE-TIME GROUP GMT 18/1715Z, 1815, 1830Z
 
-4. TYPE OF OBSERVATION Ground-Visual Air-Visual ʘAir-Intercept Radarʘ Ground-Radar
+4. TYPE OF OBSERVATION Ground-Visual Air-Visual ʘAir-Intercept Radarʘ
 
 5. PHOTOS Yes ʘNoʘ
 
-6. SOURCE ʘCivilianʘ
+6. SOURCE Civilian ʘMistakenʘ
 
 7. LENGTH OF OBSERVATION 20 mins
 
 8. NUMBER OF OBJECTS one
 
-9. COURSE Stationary South & Unknown
+9. COURSE South & Stationary
 
 10. BRIEF SUMMARY OF SIGHTING Cigar or blimp shaped obj, about size of a paper clip. Color appeared to be silver w/a reflecting quality. Obj appeared to stretch in length & thin out while moving in a Southerly direction. See case file for additional info.
 
 11. COMMENTS Probably a conventional a/c. and balloon in area. 3 sightings. Balloon stationary obj. A2C established over area at time of sighting were B-47's & B-52's on training missions.
 
-12. CONCLUSIONS Was Balloon ʘProbably Balloonʘ Possibly Balloon Was Aircraft Probably Aircraft ʘPossibly Aircraftʘ Was Astronomical Probably Astronomical ʘPossibly Astronomicalʘ Mistaken Other Identity Insufficient Data for Evaluation
+12. CONCLUSIONS Was Balloon ʘProbably Balloonʘ Possibly Balloon Was Aircraft ʘProbably Aircraftʘ Possibly Aircraft Was Astronomical ʘProbably Astronomicalʘ Possibly Astronomical Other Identity Insufficient Data for Evaluation
 
-ATIC FORM 329 (REV 25 SEP 52)",0.30434782608695654,9.48,"PROJECT 10073 RECORD CARD  
-1 DATE 18 Mar 58  
-2 LOCATION Ogallala, Nebraska  
-3 DATE-TIME GROUP GMT 18/1715Z, 1815, 1830Z  
-4 TYPE OF OBSERVATION ʘGround-Visualʘ Ground-Radar Air-Visual Air-Intercept Radar  
-5 PHOTOS ʘNoʘ Yes  
-6 SOURCE ʘCivilianʘ XL  
-7 LENGTH OF OBSERVATION 20 mins  
-8 NUMBER OF OBJECTS one  
-9 COURSE ʘSouthʘ Stationary Unknown  
-10 BRIEF SUMMARY OF SIGHTING Cigar or blimp shaped obj, about size of a paper clip. Color appeared to be silver w/a reflecting quality. Obj appeared to stretch in length & thin out while moving in a Southerly direction. See case file for additional info.  
-11 COMMENTS Probably a conventional a/c and balloon in area. 3 sightings. Balloon stationary obj. A2C established over area at time of sighting were B-47's & B-52's on training missions.  
-12 CONCLUSIONS ʘProbably Balloonʘ Was Balloon Possibly Balloon ʘProbably Aircraftʘ Was Aircraft Possibly Aircraft ʘProbably Astronomicalʘ Was Astronomical Possibly Astronomical Mistaken Other Identity Insufficient Data for Evaluation  
+ATIC FORM 329 (REV 25 SEP 52)",0.27909270216962523,5.63,"PROJECT 10073 RECORD CARD  
+1. DATE 18 Mar 58  
+2. LOCATION Ogallala, Nebraska  
+3. DATE-TIME GROUP GMT 18/1715Z, 1815, 1830Z  
+4. TYPE OF OBSERVATION  
+ʘGround-Visualʘ  
+Local  
+Ground-Radar  
+ʘAir-Visualʘ  
+Air-Intercept Radar  
+5. PHOTOS ʘYesʘ No  
+6. SOURCE ʘCivilianʘ XL  
+7. LENGTH OF OBSERVATION 20 mins  
+8. NUMBER OF OBJECTS one  
+9. COURSE  
+ʘSouth & Stationaryʘ  
+Unknown  
+10. BRIEF SUMMARY OF SIGHTING  
+Cigar or blimp shaped obj, about size of a paper clip. Color appeared to be silver w/a reflecting quality. Obj appeared to stretch in length & thin out while moving in a Southerly direction. See case file for additional info.  
+11. COMMENTS  
+Probably a conventional a/c and balloon in area. 3 sightings. Balloon stationary obj. A2C established over area at time of sighting were B-47's & B-52's on training missions.  
+12. CONCLUSIONS  
+ʘWas Balloonʘ Probably Balloon Possibly Balloon  
+ʘWas Aircraftʘ Probably Aircraft Possibly Aircraft  
+ʘWas Astronomicalʘ Probably Astronomical Possibly Astronomical  
+Mistaken  
+Other Identity  
+Insufficient Data for Evaluation  
 
 ATIC FORM 329 (REV 25 SEP 52)  
-3",0.28585365853658534,18.93,"PROJECT 10073 RECORD CARD
+3",0.27464114832535885,19.82,"PROJECT 10073 RECORD CARD
 1. DATE 18 Mar 58
 2. LOCATION Ogallala, Nebraska
 3. DATE-TIME GROUP GMT 18/1715Z, 1815, 1830Z
-4. TYPE OF OBSERVATION Local
+4. TYPE OF OBSERVATION
+Local
 Ground-Radar
 Ground-Visual
 Air-Visual
 Air-Intercept Radar
-5. PHOTOS Yes
-No ʘXʘ
-6. SOURCE Civilian
+5. PHOTOS
+Yes
+ʘNoʘ
+6. SOURCE
+Civilian
 7. LENGTH OF OBSERVATION 20 mins
 8. NUMBER OF OBJECTS one
 9. COURSE South & Stationary
-10. BRIEF SUMMARY OF SIGHTING Cigar or blimp shaped obj, about size of a paper clip. Color appeared to be silver w/a reflecting quality. Obj appeared to stretch in length & thin out while moving in a Southerly dire-ction. See case file for additional info.
-11. COMMENTS Probably a conventional a/c. and balloon in area. 3 sightings. Balloon stationary obj. A2C established over area at time of sighting were B-47's & B-52' on training missions,
+10. BRIEF SUMMARY OF SIGHTING
+Cigar or blimp shaped obj, about size of a paper clip. Color appeared to be silver w/a reflecting quality. Obj appeared to stretch in length & thin out while moving in a Southerly direction. See case file for additional info.
+11. COMMENTS
+Probably a conventional a/c. and balloon in area. 3 sightings. Balloon stationary obj. A2C established over area at time of sighting were B-47's & B-52' on training missions.
 12. CONCLUSIONS
 Was Balloon
 Probably Balloon
@@ -653,43 +732,22 @@ Was Astronomical
 Probably Astronomical
 Possibly Astronomical
 Mistaken Identity
-Other
+Other Identity
 Insufficient Data for Evaluation
-ATIC FORM 329 (REV 25 SEP 52)
-3",0.2806171648987464,1.89,"PROJECT 10073 RECORD CARD
+ATIC FORM 329 (REV 25 SEP 52)",0.28338136407300674,1.68,"PROJECT 10073 RECORD CARD
 1. DATE 18 Mar 58
 2. LOCATION Ogallala, Nebraska
 3. DATE-TIME GROUP GMT 18/1715Z, 1815, 1830Z
-4. TYPE OF OBSERVATION
-Local
-Ground-Radar
-Was Aircraft
-Ground-Visual
-Air-Visual
-Air-Intercept Radar
-Was Astronomical
+4. TYPE OF OBSERVATION Local Ground-Visual Air-Visual Air-Intercept Radar Ground-Radar ʘXLʘ Other Identity Civilian
 5. PHOTOS No
-6. SOURCE XL Civilian
+6. SOURCE XL
 7. LENGTH OF OBSERVATION 20 mins
 8. NUMBER OF OBJECTS one
 9. COURSE South & Stationary
-10. BRIEF SUMMARY OF SIGHTING Cigar or blimp shaped obj, about size of apaper clip. Color appeared to be silver w/a reflecting quality. Obj appeared to stretch in length & thin out while moving in a Southerly dire-ction. See case file for additional info.
+10. BRIEF SUMMARY OF SIGHTING Cigar or blimp shaped obj, about size of apaper clip. Color appeared to be silver w/a reflecting quality. Obj appeared to stretch in length & thin out while moving in a Southerly dire- ction. See case file for additional info.
 11. COMMENTS Probably a conventional a/c. and balloon in area. 3 sightings. Balloon stationary obj. A2C established over area at time of sighting were B-47's & B-52' on training missions.
-12. CONCLUSIONS
-Was Balloon
-Possibly Balloon
-Probably Balloon
-Was Aircraft
-Possibly Aircraft
-Probably Aircraft
-Was Astronomical
-Possibly Astronomical
-Mistaken
-Other Identity
-Unknown
-Insufficient Data for ""Evaluation
-ATIC FORM 329 (REV 25 SEP 52)
-3",0.2923809523809524,1.33
+12. CONCLUSIONS Was Balloon ʘProbably Balloonʘ Possibly Balloon Was Aircraft Probably Aircraft Possibly Aircraft Was Astronomical Probably Astronomical Possibly Astronomical Mistaken Unknown Insufficient Data for ""Evaluation
+ATIC FORM 329 (REV 25 SEP 52)",0.303639846743295,1.64
 28984139,"
 PROJECT 10073 RECORD CARD
 1. DATE
@@ -752,6 +810,9 @@ ATIC FORM 3.29 (REV 26 SEP 52)",0.7402597402597403,"PROJECT 10073 RECORD CARD
 2. LOCATION Long Island, New York  
 3. DATE-TIME GROUP GMT 132134Z Aug 59  
 4. TYPE OF OBSERVATION Ground-Visual  
+   Air-Visual  
+   Ground-Radar  
+   Air-Intercept Radar  
 5. PHOTOS Yes  
 6. SOURCE Civilian  
 7. LENGTH OF OBSERVATION 20-30 sec  
@@ -760,42 +821,30 @@ ATIC FORM 3.29 (REV 26 SEP 52)",0.7402597402597403,"PROJECT 10073 RECORD CARD
 10. BRIEF SUMMARY OF SIGHTING Rnd, yellowish-blue obj flying very high. Faded out.  
 11. COMMENTS Limited info. Possible a/c.  
 12. CONCLUSIONS Was Balloon  
-Probably Balloon  
-Possibly Balloon  
-Was Aircraft  
-Probably Aircraft  
-Possibly Aircraft  
-Was Astronomical  
-Probably Astronomical  
-Possibly Astronomical  
-13. Other Insufficient Data for Evaluation  
-ATIC FORM 3.29 (REV 26 SEP 52)",0.1,4.71,"PROJECT 10073 RECORD CARD
+   Probably Balloon  
+   Possibly Balloon  
+   Was Aircraft  
+   Probably Aircraft  
+   Possibly Aircraft  
+   Was Astronomical  
+   Probably Astronomical  
+   Possibly Astronomical  
+   No  
+13. OTHER Insufficient Data for Evaluation",0.09130434782608696,3.61,"PROJECT 10073 RECORD CARD
 
-1. DATE 13 Aug 59
-
-2. LOCATION Long Island, New York
-
-3. DATE-TIME GROUP Local 1634 GMT 132134Z Aug 59
-
-4. TYPE OF OBSERVATION Ground-Visual Air-Visuol Air-Intercept Radar ʘGround-Radarʘ
-
-5. PHOTOS Yes ʘNoʘ
-
-6. SOURCE ʘCivilianʘ
-
-7. LENGTH OF OBSERVATION 20-30 sec
-
-8. NUMBER OF OBJECTS one
-
-9. COURSE W-E
-
-10. BRIEF SUMMARY OF SIGHTING Rnd, yellowish-blue obj flying very high. Faded out.
-
-11. COMMENTS Limited info. Possible a/c.
-
-12. CONCLUSIONS Was Balloon Probably Balloon Possibly Balloon Was Aircraft Probably Aircraft Possibly Aircraft Was Astronomical Probably Astronomical Possibly Astronomicol ʘOther Insufficient Data for Evaluationʘ
-
-ATIC FORM 3.29 (REV 26 SEP 52)",0.04782608695652174,6.24,"PROJECT 10073 RECORD CARD  
+1. DATE 13 Aug 59  
+2. LOCATION Long Island, New York  
+3. DATE-TIME GROUP Local 1634 GMT 132134Z Aug 59  
+4. TYPE OF OBSERVATION Ground-Visual Air-Visual ʘGround-Radarʘ Air-Intercept Radar  
+5. PHOTOS ʘYesʘ No  
+6. SOURCE Civilian  
+7. LENGTH OF OBSERVATION 20-30 sec  
+8. NUMBER OF OBJECTS one  
+9. COURSE W-E  
+10. BRIEF SUMMARY OF SIGHTING Rnd, yellowish-blue obj flying very high. Faded out.  
+11. COMMENTS Limited info. Possible a/c.  
+12. CONCLUSIONS Was Balloon Probably Balloon Possibly Balloon Was Aircraft Probably Aircraft Possibly Aircraft Was Astronomical Probably Astronomical Possibly Astronomical Other ʘInsufficient Data for Evaluationʘ  
+ATIC FORM 3.29 (REV 26 SEP 52)",0.010144927536231883,3.55,"PROJECT 10073 RECORD CARD  
 1. DATE 13 Aug 59  
 2. LOCATION Long Island, New York  
 3. DATE-TIME GROUP GMT 132134Z Aug 59 Local 1634  
@@ -809,11 +858,11 @@ ATIC FORM 3.29 (REV 26 SEP 52)",0.04782608695652174,6.24,"PROJECT 10073 RECORD C
 11. COMMENTS Limited info. Possible a/c.  
 12. CONCLUSIONS ʘWas Balloonʘ Probably Balloon Possibly Balloon ʘWas Aircraftʘ Probably Aircraft Possibly Aircraft ʘWas Astronomicalʘ Probably Astronomical Possibly Astronomical Insufficient Data for Evaluation Unknown  
 
-ATIC FORM 3.29 (REV 26 SEP 52)",0.07959479015918958,16.38,"PROJECT 10073 RECORD CARD
+ATIC FORM 3.29 (REV 26 SEP 52)",0.07959479015918958,14.54,"PROJECT 10073 RECORD CARD
 1. DATE 13 Aug 59
 2. LOCATION Long Island, New York
 3. DATE-TIME GROUP Local 1634 GMT 132134Z Aug 59
-4. TYPE OF OBSERVATION ʘGround-Visualʘ Ground-Radar Air-Visuol Air-Intercept Radar
+4. TYPE OF OBSERVATION Ground-Visual Ground-Radar Air-Visuol Air-Intercept Radar
 5. PHOTOS Yes ʘNoʘ
 6. SOURCE Civilian
 7. LENGTH OF OBSERVATION 20-30 sec
@@ -822,7 +871,7 @@ ATIC FORM 3.29 (REV 26 SEP 52)",0.07959479015918958,16.38,"PROJECT 10073 RECORD 
 10. BRIEF SUMMARY OF SIGHTING Rnd, yellowish-blue obj flying very high. Faded out.
 11. COMMENTS Limited info. Possible a/c.
 12. CONCLUSIONS Was Balloon ʘProbably Balloonʘ Possibly Balloon Was Aircraft Probably Aircraft Possibly Aircraft Was Astronomical Probably Astronomical Possibly Astronomicol Other Insufficient Data for Evaluation Unknown
-ATIC FORM 3.29 (REV 26 SEP 52)",0.03328509406657019,1.33,"PROJECT 10073 RECORD CARD
+ATIC FORM 3.29 (REV 26 SEP 52)",0.03328509406657019,1.23,"PROJECT 10073 RECORD CARD
 1. DATE 13 Aug 59
 2. LOCATION Long Island, New York
 3. DATE-TIME GROUP GMT 132134Z Aug 59
@@ -834,8 +883,8 @@ ATIC FORM 3.29 (REV 26 SEP 52)",0.03328509406657019,1.33,"PROJECT 10073 RECORD C
 9. COURSE W-E
 10. BRIEF SUMMARY OF SIGHTING Rnd, yellowish-blue obj flying very high. Faded out.
 11. COMMENTS Limited info. Possible a/c.
-12. CONCLUSIONS Was Balloon ʘProbably Balloonʘ Possibly Balloon Was Aircraft ʘProbably Aircraftʘ Possibly Aircraft Was Astronomical ʘProbably Astronomicalʘ Possibly Astronomicol Other Insufficient Data for Evaluation Unknown
-ATIC FORM 3.29 (REV 26 SEP 52)",0.08840579710144927,1.06
+12. CONCLUSIONS Was Balloon ʘProbably Balloonʘ Possibly Balloon Was Aircraft ʘProbably Aircraftʘ Possibly Aircraft Was Astronomical ʘProbably Astronomicalʘ Possibly Astronomicol Insufficient Data for Evaluation Unknown
+ATIC FORM 3.29 (REV 26 SEP 52)",0.09710144927536232,0.92
 28994552,"
 PROJECT 10073 RECORD CARD
 1. DATE
@@ -903,15 +952,26 @@ ATIC FORM 329 (REV 26 SEP S2)",0.6923963133640553,"PROJECT 10073 RECORD CARD
 2. LOCATION E Coast US  
 3. DATE-TIME GROUP GMT 0939Z  
 4. TYPE OF OBSERVATION Ground-Visual  
+   Air-Visual  
+   Ground-Radar  
+   Air-Intercept Radar  
+   Probably Aircraft  
+   Possibly Aircraft  
+   Was Aircraft  
+   Possibly Balloon  
 5. PHOTOS Yes  
+   No  
 6. SOURCE Military  
+   Probably Astronomical  
+   Possibly Astronomical  
+   Was Astronomical  
 7. LENGTH of OBSERVATION 5-7 sec  
-8. NUMBER OF OBJECTS 1  
+   e. NUMBER OF OBJECTS 1  
 9. COURSE up  
-10. BRIEF SUMMARY OF SIGHTING Report of NASA experimental rocket launch.  
+10. BRIEF SUMMARY OF SIGHTING Report of NASA experimental rocket launch from Wallops Island, Virginia. Release of sodium material over 100 mi up; chemical visible for some distance in Atlantic up and down Atlantic Coast and as far as Midwestern U.S. (inland).  
 12. CONCLUSIONS Probably Balloon  
-13. COMMENTS Confirmed NASA Experimental rocket launch from Wallops Island, Virginia. Release of sodium material over 100 mi up; chemical visible for some distance in Atlantic up and down Atlantic Coast and as far as Midwestern U.S. (inland).  
-ATIC FORM 329 (REV 26 SRP §2)",0.4908869987849332,4.27,"PROJECT 10073 RECORD CARD
+13. COMMENTS Confirmed NASA Experimental rocket launch.  
+ATIC FORM 329 (REV 26 SRP §2)",0.3888213851761847,4.2,"PROJECT 10073 RECORD CARD
 
 1. DATE 13 Sep 61  
 2. LOCATION E Coast US  
@@ -922,53 +982,38 @@ ATIC FORM 329 (REV 26 SRP §2)",0.4908869987849332,4.27,"PROJECT 10073 RECORD CA
 7. LENGTH OF OBSERVATION 5-7 sec  
 8. NUMBER OF OBJECTS 1  
 9. COURSE up  
-10. BRIEF SUMMARY OF SIGHTING Report of NASA experimental rocket launch from Wallops Island, Virginia. Release of sodium material over 100 mi up; chemical visible for some distance in Atlantic up and down Atlantic Coast and as far as Midwestern U.S. (inland).  
+10. BRIEF SUMMARY OF SIGHTING Report of NASA experimental rocket launch from Wallops Island, Virginia. Release of sodium material over 100 miles up; chemical visible for some distance in Atlantic up and down Atlantic Coast and as far as Midwestern U.S. (inland).  
 11. COMMENTS Confirmed NASA Experimental rocket launch.  
-12. CONCLUSIONS ʘWas Balloonʘ Probably Balloon Possibly Balloon Was Aircraft Probably Aircraft Possibly Aircraft Was Astronomical Probably Astronomical Possibly Astronomical Other Rocket launch Insufficient Data for Evaluation Unknown  
-13. CONCLUSIONS Probably Balloon
+12. CONCLUSIONS ʘBalloonʘ Probably Balloon Possibly Balloon Was Aircraft Probably Aircraft Possibly Aircraft Was Astronomical Probably Astronomical Possibly Astronomical Other Rocket launch Insufficient Data for Evaluation Unknown  
 
-ATIC FORM 329 (REV 26 SRP §2)",0.18110236220472442,6.97,"PROJECT 10073 RECORD CARD  
-1 DATE 13 Sep 61  
-2 LOCATION E Coast US  
-3 DATE-TIME GROUP 0939Z  
-4 TYPE OF OBSERVATION  
-ʘGround-Visualʘ  
-Ground-Radar  
-ʘAir-Visualʘ  
-Air-Intercept Radar  
-5 PHOTOS ʘNoʘ  
-6 SOURCE ʘMilitaryʘ  
-7 LENGTH OF OBSERVATION 5-7 sec  
-8 NUMBER OF OBJECTS 1  
-9 COURSE up  
-10 BRIEF SUMMARY OF SIGHTING Report of NASA experimental rocket launch fm Wallops Island, Virginia. Release of sodium material over 100 mi up; chemical visible for some distance in Atlantic up and down Atlantic Coast and as far as Midwestern U.S. (inland).  
-11 COMMENTS Confirmed NASA Experimental rocket launch.  
-12 CONCLUSIONS  
-ʘProbably Balloonʘ  
-Possibly Balloon  
-ʘWas Aircraftʘ  
-Probably Aircraft  
-ʘWas Astronomicalʘ  
-Probably Astronomical  
-Possibly Astronomical  
-Other Rocket launch  
-Insufficient Data for Evaluation  
-Unknown  
+ATIC FORM 329 (REV 26 SRP §2)",0.15789473684210525,4.2,"PROJECT 10073 RECORD CARD  
+1. DATE 13 Sep 61  
+2. LOCATION E Coast US  
+3. DATE-TIME GROUP 0939Z  
+4. TYPE OF OBSERVATION ʘGround-Visualʘ Ground-Radar Air Visual Air-Intercept Radar  
+5. PHOTOS ʘYesʘ No  
+6. SOURCE ʘMilitaryʘ Other Rocket launch  
+7. LENGTH OF OBSERVATION 5-7 sec  
+8. NUMBER OF OBJECTS 1  
+9. COURSE up  
+10. BRIEF SUMMARY OF SIGHTING Report of NASA experimental rocket launch fm Wallops Island, Virginia. Release of sodium material over 100 mi up; chemical visible for some distance in Atlantic up and down Atlantic Coast and as far as Midwestern U.S. (inland).  
+11. COMMENTS Confirmed NASA Experimental rocket launch.  
+12. CONCLUSIONS ʘProbably Balloonʘ Possibly Balloon Was Aircraft Probably Aircraft Was Astronomical Probably Astronomical Possibly Astronomical Insufficient Data for Evaluation Unknown  
 
-ATIC FORM 329 (REV 26 SRP §2)",0.14823815309842042,15.87,"PROJECT 10073 RECORD CARD
+ATIC FORM 329 (REV 26 SRP §2)",0.15048543689320387,15.25,"PROJECT 10073 RECORD CARD
 1. DATE 13 Sep 61
 2. LOCATION E Coast US
-3. DATE-TIME GROUP 0939Z GMT Local
-4. TYPE OF OBSERVATION Ground-Visuel Ground-Redor Air Visuel Air-Intercept Redar
-5. PHOTOS Yes No
+3. DATE-TIME GROUP 0939Z
+4. TYPE OF OBSERVATION ʘGround-Visuelʘ Ground-Redor Air Visuel Air-Intercept Redar Local GMT
+5. PHOTOS Yes ʘNoʘ
 6. SOURCE Military Other
-7. LENOTH or OBSERVATION 5-7 sec
+7. LENGTH OF OBSERVATION 5-7 sec
 8. NUMBER OF OBJECTS 1
 9. COURSE up
-10. BRIEF SUMMARY OF SIGNTING Report of NASA experi-mental rocket launch fm Wallops Island, Vir-ginia. Release of sodium material over 100 mi up; chemical visible for some distance in Atlantic up and down Atlantic Coast and as far as Midwestern U.S. (inland).
+10. BRIEF SUMMARY OF SIGHTING Report of NASA experi-mental rocket launch fm Wallops Island, Vir-ginia. Release of sodium material over 100 mi up; chemical visible for some distance in Atlantic up and down Atlantic Coast and as far as Midwestern U.S. (inland).
 11. COMMENTS Confirmed NASA Experimental rocket launch.
-12. CONCLUSIONS ʘWas Balloonʘ Probably Balleon Possibly Balloon Was Aireraft Probably Aircraft Possibly Aireraft Was Astronomical Probably Astronomical Possibly Astronomicol Rocket launch Insufficient Data for Evaluation Unknown
-ATIC FORM 329 (REV 26 SRP §2)",0.1351039260969977,1.48,"PROJECT 10073 RECORD CARD
+12. CONCLUSIONS Was Balloon Probably Balleon Possibly Balloon Was Aircraft Probably Aircraft Possibly Aircraft Was Astronomical Probably Astronomical Possibly Astronomical Other Rocket launch Insufficient Data for Evaluation Unknown
+ATIC FORM 329 (REV 26 SRP 62)",0.12729357798165136,1.44,"PROJECT 10073 RECORD CARD
 1. DATE 13 Sep 61
 2. LOCATION E Coast US
 3. DATE-TIME GROUP 0939Z GMT
@@ -978,10 +1023,10 @@ ATIC FORM 329 (REV 26 SRP §2)",0.1351039260969977,1.48,"PROJECT 10073 RECORD CA
 7. LENOTH or OBSERVATION 5-7 sec
 8. NUMBER OF OBJECTS 1
 9. COURSE up
-10. BRIEF SUMMARY OF SIGNTING Report of NASA experi-mental rocket launch fm Wallops Island, Virginia. Release of sodium material over 100 mi up; chemical visible for some distance in Atlantic up and down Atlantic Coast and as far as Midwestern U.S. (inland).
+10. BRIEF SUMMARY OF SIGNTING Report of NASA experi- mental rocket launch fm Wallops Island, Vir- ginia. Release of sodium material over 100 mi up; chemical visible for some distance in Atlantic up and down Atlantic Coast and as far as Midwestern U.S. (inland).
 11. COMMENTS Confirmed NASA Experimantal rocket launch.
 12. CONCLUSIONS Wes Balloon Probably Balleon Possibly Balloon Insufficient Data for Evaluation Unknown
-ATIC FORM 329 (REV 26 SRP §2)",0.20534629404617255,1.28
+ATIC FORM 329 (REV 26 SRP §2)",0.2065613608748481,1.02
 28974530,"
 UFCB INDEX CARD
 ATSS-JFCE 565
@@ -1074,8 +1119,38 @@ AISOP Form 5 (15 Oct 54)",0.5808080808080808,"UFCB INDEX CARD
 ATSS-JFCE 565  
 67  
 
+1. DATE 1/nov5)  
+2. LOCATION Norwich, Conn.  
+3. DATE-TIME GROUP 11/0216z Nov 57  
+4. TYPE OF OBSERVATION Ground-Visual  
+Ground-Radar  
+Air-Visual  
+Air-Intercept Radar  
+Was Balloon  
+Probably Balloon  
+Possibly Balloon  
+Was Aircraft  
+Probably Aircraft  
+Possibly Aircraft  
+Was Astronomical  
+Yes  
+Probably Astronomical  
+Possibly Astronomical  
+No  
+Civilian  
+5. PHOTOS  
+6. SOURCE  
+7. LENGTH OF OBSERVATION Four seconds  
+8. NUMBER OF OBJECTS One  
+9. COURSE Unknown  
+10. BRIEF SUMMARY OF SIGHTING One round red and orange object the size of a basketball. Object was tax seen in an arc and was in sight for 4 seconds.  
+11. COMMENTS Description, duration, flight path indicate that this was probably a mete  
+12. CONCLUSIONS Insufficient Data for Evaluation",0.308,4.1,"UFCB INDEX CARD  
+ATSS-JFCE 565  
+67  
+
 1. DATE  
-1/nov5)  
+3 Jan 58  
 
 2. LOCATION  
 Norwich, Conn.  
@@ -1088,60 +1163,14 @@ Ground-Visual
 Ground-Radar  
 Air-Visual  
 Air-Intercept Radar  
-Was Balloon  
-Probably Balloon  
-Possibly Balloon  
-Was Aircraft  
-Probably Aircraft  
-Possibly Aircraft  
-Was Astronomical  
-Probably Astronomical  
-Possibly Astronomical  
 
 5. PHOTOS  
 Yes  
 No  
 
 6. SOURCE  
-Civilian  
-
-7. LENGTH OF OBSERVATION  
-Four seconds  
-
-8. NUMBER OF OBJECTS  
-One  
-
-9. COURSE  
-Unknown  
-
-10. BRIEF SUMMARY OF SIGHTING  
-One round red and orange object the size of a basketball. Object was seen in an arc and was in sight for 4 seconds.  
-
-11. COMMENTS  
-Description, duration, flight path indicate that this was probably a mete.  
-
-AISOP Form 5 (15 Oct 54)",0.24619640387275243,4.94,"UFCB INDEX CARD  
-ATSS-JFCE 565  
-67  
-
-1. DATE  
-11/02/57  
-
-2. LOCATION  
-Norwich, Conn.  
-
-3. DATE-TIME GROUP  
-11/0216z Nov 57  
-
-4. TYPE OF OBSERVATION  
-Ground-Visual  
-Air-Visual  
-
-5. PHOTOS  
-No  
-
-6. SOURCE  
 ʘCivilianʘ  
+Other  
 
 7. LENGTH OF OBSERVATION  
 Four seconds  
@@ -1160,7 +1189,7 @@ Description, duration, flight path indicate that this was probably a meteor.
 
 12. CONCLUSIONS  
 Was Balloon  
-ʘProbably Balloonʘ  
+Probably Balloon  
 Possibly Balloon  
 Was Aircraft  
 Probably Aircraft  
@@ -1168,10 +1197,9 @@ Possibly Aircraft
 Was Astronomical  
 Probably Astronomical  
 Possibly Astronomical  
-Other  
 Insufficient Data for Evaluation  
 
-AISOP Form 5 (15 Oct 54)",0.35647530040053405,7.03,"UFCB INDEX CARD  
+AISOP Form 5 (15 Oct 54)",0.2951653944020356,3.99,"UFCB INDEX CARD  
 ATSS-JFCE 565  
 67  
 
@@ -1182,7 +1210,7 @@ ATSS-JFCE 565
 Norwich, Conn.  
 
 3. DATE-TIME GROUP  
-110216Z Nov 57  
+11/0216z Nov 57  
 
 4. TYPE OF OBSERVATION  
 ʘGround-Visualʘ  
@@ -1226,10 +1254,11 @@ Was Astronomical
 Possibly Astronomical  
 Insufficient Data for Evaluation  
 
-AISOP Form 5 (15 Oct 54)",0.3041825095057034,16.3,"UFCB INDEX CARD
+AISOP Form 5 (15 Oct 54)",0.3037974683544304,17.02,"UFCB INDEX CARD
 ATSS-JFCE 565
-1. DATE 1 Nov 57
-3. DATE-TIME GROUP 11/0216z Nov 57
+67
+1. DATE 1/Nov 57
+3. DATE-TIME GROUP 11/0216Z Nov 57
 2. LOCATION Norwich, Conn.
 4. TYPE OF OBSERVATION
 ʘGround-Visualʘ
@@ -1246,7 +1275,7 @@ Yes
 9. COURSE Arc
 10. BRIEF SUMMARY OF SIGHTING One round red and orange object the size of a basketball. Object was last seen in an arc and was in sight for 4 seconds.
 11. COMMENTS Description, duration, flight path indicate that this was probably a meteor.
-12. CONCLUSIONS
+12. CONCLUSIONS 3 Jan 58
 Was Balloon
 Probably Balloon
 Possibly Balloon
@@ -1258,8 +1287,8 @@ Was Astronomical
 Possibly Astronomical
 Other
 Insufficient Data for Evaluation
-3 Jan 58
-AISOP Form 5 (15 Oct 54)",0.3616751269035533,1.52,"UFCB INDEX CARD
+Unknown
+AISOP Form 5 (15 Oct 54)",0.36295369211514394,1.38,"UFCB INDEX CARD
 ATSS-JFCE 565
 67
 1. DATE 1/nov5)
@@ -1284,7 +1313,7 @@ Probably Astronomical
 Possibly Astronomical
 Other
 Insufficient Data for Evaluati
-AISOP Form 5 (15 Oct 54)",0.3686382393397524,1.06
+AISOP Form 5 (15 Oct 54)",0.3686382393397524,0.9
 28991590,"
 PROJECT 10073 RECORD CARD
 1. DATE
@@ -1352,55 +1381,44 @@ ATIC FORM 329 (REV 26 SEP 52)",0.7228144989339019,"PROJECT 10073 RECORD CARD
 2. LOCATION 3854N 7710W Arlington, Va.  
 3. DATE-TIME GROUP GMT 280201Z  
 4. TYPE OF OBSERVATION Ground-Visual  
-   Ground-Radar  
    Air Visual  
+   Ground-Radar  
    Air-Intercept Radar  
 5. PHOTOS Yes  
 6. SOURCE Civilian  
-   Possibly Astronomical  
-   Probably Astronomical  
-   No  
 7. LENGTH OF OBSERVATION 90 sec  
 8. NUMBER OF OBJECTS 1  
 9. COURSE SW-NE  
-10. BRIEF SUMMARY OF SIGHTING Circular objt, size of pinhead. Yellow-red, brightness of 2nd magnitude. Had vapor trail, indeterminate length, W/probable over estimation of time.  
-11. COMMENTS Except for duration, description is characteristic of a meteor. 7° or 8° removed from objt. Appeared 30-35° above horizon in SW sky; disappeared 80° above horizon in NE sky.  
-12. CONCLUSIONS Was Balloon  
-   Probably Balloon  
-   Possibly Balloon  
-   Was Aircraft  
-   Probably Aircraft  
-   Possibly Aircraft  
-   Was Astronomical METEOR  
-   Probably Astronomical  
-   Other  
-   Insufficient Data for Evaluation  
-   Unknown  
-ATIC FORM 329 (REV 26 SEP 52)",0.2764830508474576,6.31,"PROJECT 10073 RECORD CARD
+10. BRIEF SUMMARY OF SIGHTING Circular objt, size of pinhead. Yellow-red, brightness of 2nd magnitude. Had vapor trail, indeterminate length, W/probable over estimation of time. 7° or 8° removed from objt. Appeared 30-35° above horizon in SW sky; disappeared 80° above horizon in NE sky.  
+11. COMMENTS Except for duration, description is characteristic of a meteor.  
+12. CONCLUSIONS Was Balloon ʘProbably Balloonʘ Possibly Balloon  
+   Was Aircraft ʘProbably Aircraftʘ Possibly Aircraft  
+   Was Astronomical ʘYesʘ Probably Astronomical No  
+ATIC FORM 329 (REV 26 SEP 52)",0.1933404940923738,4.45,"PROJECT 10073 RECORD CARD
 
 1. DATE 27 Feb 61  
 2. LOCATION 3854N 7710W Arlington, Va.  
 3. DATE-TIME GROUP Local 2101 GMT 280201Z  
-4. TYPE OF OBSERVATION Ground-Visual Ground-Radar Air Visual Air-Intercept Radar  
+4. TYPE OF OBSERVATION Ground-Visual Ground-Radar Air Visual Air-Intercept Radar ʘGround-Visualʘ  
 5. PHOTOS Yes No  
-6. SOURCE Civilian  
+6. SOURCE Civilian Other ʘCivilianʘ  
 7. LENGTH OF OBSERVATION 90 sec  
 8. NUMBER OF OBJECTS 1  
 9. COURSE SW-NE  
 10. BRIEF SUMMARY OF SIGHTING Circular objt, size of pinhead. Yellow-red, brightness of 2nd magnitude. Had vapor trail, indeterminate length, 7° or 8° removed from objt. Appeared 30-35° above horizon in SW sky; disappeared 80° above horizon in NE sky.  
 11. COMMENTS Except for duration, description is characteristic of a meteor. W/probable over estimation of time.  
-12. CONCLUSIONS Was Balloon Probably Balloon Possibly Balloon Was Aircraft Probably Aircraft Possibly Aircraft Was Astronomical METEOR ʘWas Astronomicalʘ Probably Astronomical Possibly Astronomical Other Insufficient Data for Evaluation Unknown  
+12. CONCLUSIONS Was Balloon Probably Balloon Possibly Balloon Was Aircraft Probably Aircraft Possibly Aircraft Was Astronomical Probably Astronomical Possibly Astronomical Insufficient Data for Evaluation Unknown ʘInsufficient Data for Evaluationʘ  
 
-ATIC FORM 329 (REV 26 SEP 52)",0.029473684210526315,6.86,"PROJECT 10073 RECORD CARD  
+ATIC FORM 329 (REV 26 SEP 52)",0.08757637474541752,5.83,"PROJECT 10073 RECORD CARD  
 1. DATE 27 Feb 61  
 2. LOCATION 3854N 7710W Arlington, Va.  
 3. DATE-TIME GROUP GMT 280201Z  
 4. TYPE OF OBSERVATION  
 ʘGround-Visualʘ  
-Ground-Rodar  
+Ground-Radar  
 ʘAir Visualʘ  
 Air-Intercept Radar  
-5. PHOTOS No  
+5. PHOTOS ʘNoʘ  
 6. SOURCE ʘCivilianʘ  
 7. LENGTH OF OBSERVATION 90 sec  
 8. NUMBER OF OBJECTS 1  
@@ -1421,43 +1439,24 @@ Other
 Insufficient Data for Evaluation  
 Unknown  
 
-ATIC FORM 329 (REV 26 SEP 52)",0.021482277121374866,17.81,"PROJECT 10073 RECORD CARD
+ATIC FORM 329 (REV 26 SEP 52)",0.02040816326530612,18.04,"PROJECT 10073 RECORD CARD
 1. DATE 27 Feb 61
 2. LOCATION 3854N 7710W Arlington, Va.
-3. DATE-TIME GROUP 280201Z
-Local 2101 GMT
-4. TYPE OF OBSERVATION
-Ground- Visual ʘXʘ
-Ground-Rodar
-Air Visual
-Air-Intercept Radar
-5. PHOTOS
-Yes
-No ʘXʘ
-6. SOURCE Civilian ʘXʘ
-Other
+3. DATE-TIME GROUP Local 2101 GMT 280201Z
+4. TYPE OF OBSERVATION Ground- Visual Ground-Rodar Air Visual Air-Intercept Radar
+5. PHOTOS Yes No
+6. SOURCE Civilian Other
 7. LENGTH OF OBSERVATION 90 sec
 8. NUMBER OF OBJECTS 1
 9. COURSE SW-NE
 10. BRIEF SUMMARY OF SIGHTING Circular objt, size of pinhead. Yellow-red, brightness of 2nd magnitude. Had vapor trail, indeterminate length, 7° or 8° removed from objt. Appeared 30-35° above horizon in SW sky; disappeared 80° above horizon in NE sky.
 11. COMMENTS Except for duration, description is characteristic of a metero. W/probable over estimation of time.
-12. CONCLUSIONS
-Was Balloon
-Probably Balloon ʘXʘ
-Possibly Balioon
-Was Aircraft
-Probably Aircraft
-Possibly Aircraft
-Was Astronomical METEOR
-Probably Astronomical
-Possibly Astronomical
-Insufficient Data for Evaluation
-Unknown
-ATIC FORM 329 (REV 26 SEP 52)",0.055201698513800426,1.86,"PROJECT 10073 RECORD CARD
+12. CONCLUSIONS Was Balloon Probably Balloon Possibly Balioon Was Aircraft Probably Aircraft Possibly Aircraft ʘWas Astronomicalʘ METEOR Probably Astronomical Possibly Astronomical Insufficient Data for Evaluation Unknown
+ATIC FORM 329 (REV 26 SEP 52)",0.029978586723768737,1.45,"PROJECT 10073 RECORD CARD
 1. DATE 27 Feb 61
 2. LOCATION 3854N 7710W Arlington, Va.
 3. DATE-TIME GROUP 280201Z GMT
-4. TYPE OF OBSERVATION ʘGround- Visualʘ Local
+4. TYPE OF OBSERVATION Ground- Visual
 5. PHOTOS No
 6. SOURCE Civilian
 7. LENGTH OF OBSERVATION 90 sec
@@ -1466,15 +1465,15 @@ ATIC FORM 329 (REV 26 SEP 52)",0.055201698513800426,1.86,"PROJECT 10073 RECORD C
 10. BRIEF SUMMARY OF SIGHTING Circular objt, size of pinhead. Yellow-red, brightness of 2nd magnitude. Had vapor trail, indeterminate length, 7° or 8° removed from objt. Appeared 30-35° above horizon in SW sky; disappeared 80° above horizon in NE sky.
 11. COMMENTS Except for duration, descrip- tion is characteristic of a metero. W/probable over estimation of time.
 12. CONCLUSIONS Was Balloon
-Possibly Balloon
-ʘProbably Balloonʘ
+Probably Balloon
+Possibly Balioon
 Was Aircraft
 Probably Aircraft
 Possibly Aircraft
-Was Astronomical
+Was Astronomical METEOR ʘ
 Probably Astronomical
 Possibly Astronomical
 Other
 Insufficient Data for Evaluation
 Unknown
-ATIC FORM 329 (REV 26 SEP 52)",0.08700322234156821,1.11
+ATIC FORM 329 (REV 26 SEP 52)",0.07733619763694952,1.1
