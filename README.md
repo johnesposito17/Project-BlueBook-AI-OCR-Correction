@@ -1,34 +1,18 @@
-# Project-BlueBook-AI-OCR-Correction
+**Motivation**
+[Project Blue Book]([url](https://en.wikipedia.org/wiki/Project_Blue_Book)) (1952–1969) was the U.S. Air Force's third official investigation into UFOs. As of April 24th, 2025, Blue Book—which consists of over 100,000 pages of documented sightings and investigations of UFOs—has been made publicly available through the National Archives.
 
+However, the documents were digitized using outdated OCR (Optical Character Recognition) technology, resulting in extremely poor-quality (and in many cases, completely illegible) digitized versions. This, combined with their vast size and complicated organizational scheme, means that despite their release, the general public is still largely unaware of the 12,618 reported sightings—701 of which remain unexplained.
 
-**Motivation and Backstory**
-
-Project Blue Book was the U.S. Air Force's third official investigation into unidentified flying objects and ran from 1952 to 1969.
-The aforementioned files contained 12,618 reported sightings.  Of these, 701 remained unexplained.
-While the official conclusion of the report was that UFOs pose no risk to US national security,
-the 2015 nonredacted release of the BlueBook files has reignited the
-long-standing public interest in UFOs, Cold War secrecy, and the search for extraterrestrial life.
-
-When granting the documents public internet access the National Archives used Optical Character Recognition to produce text files
-of the documents alongside pdf scans of the originals.  Some documents are even accomponied by a human written transcription.
-However, the OCR for these documents is often incorrect, completely unreadable in many instances, and the human transcription
-is not available for many of the documents.
-
-
-**What is Different About this Repository? / Future Goals**
-
-Using the Open AI API we have succesfully corrected the optical character recognition of the BlueBook documents.
-This vastly improve searchability and accesability to the information contained in these documents.
-For example if users want to see the mention of a specific name, place, or phenomemon within these UFO sightings, they can do so at the click of a button.
-Our long term goal is to the make this process generalized to other government document files collections on the national archive, promoting
-greater accessability to the declassified materials in the public domain.
+The code is generalizable file units —such as the JFK or MLK Jr. files— making them readable and searchable as well. By benchmarking the performance of different models and prompts, we also hope to contribute to the ongoing research of AI-based post-OCR correction of historical documents.
 
 **Process**
-Of the 112,000+ pages digitally available, 57,434 have extracted OCR text.   Each of those pages was sent to OpenAI’s API along with our system prompt which is 412 tokens in length.  This consumed 42,424,927 input tokens ( 23,662,808 for prompts plus 18,762,119 for transmitting the original OCR text); and returned 17,289,505 output tokens.  Running the model gpt-4o-mini-2024-07-18 required approximately 80 hours of compute time, for a total cost of $16.89.    
+Our code leverages Large Language Models developed by OpenAI, Google, Meta, and DeepSeek to correct the documents’ poor OCR output. These post-OCR corrections not only improve the readability of the documents, but using Google Looker [we have made them searchable on our website]([url](https://sites.google.com/view/project-blue-book-ai-restored/search)).
 
+[Explanation of our AI pipeline]([url](https://sites.google.com/view/project-blue-book-ai-restored/restoration-process)) can be found our website as well.
 
-For the first time you can digitally search the full set of 100,00 Project Bluebook pages, from the US National Archives.  AI was used to correct the OCR errors in the original scanned documents. 
+**How Can You Contribute**
+These Post OCR corrections require hundreds of thousands of API requests that cost money. Please consider [donating]([url](https://buymeacoffee.com/johnsespost)) to help us cover the cost of the API requests.  Donations of all sizes are greatly appreciated.
 
-The the following google sheet allows for complete searchability of Project Bluebook (** Note ** this spreedsheet does not currently contain the complete set of files):
+**Project Structure**
 
-https://docs.google.com/spreadsheets/d/1srWgIUptd5aHL6_v_BuWZ-gG2qzDRohE3sScH1e306c/edit?usp=sharing
+N/A
