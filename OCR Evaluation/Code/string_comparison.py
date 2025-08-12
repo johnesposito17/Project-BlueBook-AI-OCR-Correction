@@ -7,6 +7,15 @@ def clean_string(s: str) -> str:
 
     # Replace ʘ...ʘ with just the inner content
     s = re.sub(r'ʘ(.*?)ʘ', r'\1', s)
+    
+    # Normalize all dash types to a standard hyphen
+    s = re.sub(r'[–—]', '-', s)  # en dash, em dash → hyphen
+    
+    # Collapse multiple consecutive hyphens into a single hyphen
+    s = re.sub(r'-{2,}', '-', s)
+
+    # Make case-insensitive by lowercasing
+    s = s.lower()
 
     # Remove line breaks
     s = re.sub(r'[\r\n]+', ' ', s)
@@ -35,6 +44,7 @@ def character_error_rate(reference: str, hypothesis: str) -> float:
 
     distance = Levenshtein.distance(ref_clean, hyp_clean)
     return distance / max(len(ref_clean), len(hyp_clean))
+
 
 
 
