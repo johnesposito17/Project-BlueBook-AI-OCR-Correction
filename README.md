@@ -6,7 +6,7 @@ However, the documents were digitized using outdated OCR (Optical Character Reco
 The code is generalizable file units —such as the JFK or MLK Jr. files— making them readable and searchable as well. By benchmarking the performance of different models and prompts, we also hope to contribute to the ongoing research of AI-based post-OCR correction of historical documents.
 
 **Process**
-Our code leverages Large Language Models developed by OpenAI, Google, Meta, and DeepSeek to correct the documents’ poor OCR output. These post-OCR corrections not only improve the readability of the documents, but using Google Looker [we have made them searchable on our website]([url](https://sites.google.com/view/project-blue-book-ai-restored/search)).
+Our code leverages Large Language Models developed by OpenAI, Google, Meta, and DeepSeek to correct the documents’ poor OCR output. These post-OCR corrections not only improve the readability of the documents, but using Google Looker [we have made them searchable on our website](https://sites.google.com/view/project-blue-book-ai-restored/search).
 
 [Explanation of our AI pipeline]([url](https://sites.google.com/view/project-blue-book-ai-restored/restoration-process)) can be found our website as well.
 
