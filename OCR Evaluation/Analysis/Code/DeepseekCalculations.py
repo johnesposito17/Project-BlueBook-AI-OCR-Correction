@@ -3,7 +3,7 @@ import os
 from datetime import datetime
 
 # --- File Paths ---
-INPUT_FILE = "/Users/johnesposito/Documents/GitHub/Project-BlueBook-AI-OCR-Correction/OCR Evaluation/Results/gpt5_eval_output.csv"
+INPUT_FILE = "/Users/johnesposito/Documents/GitHub/Project-BlueBook-AI-OCR-Correction/OCR Evaluation/Results/deepseek_eval_output.csv"
 OUTPUT_DIR = "/Users/johnesposito/Documents/GitHub/Project-BlueBook-AI-OCR-Correction/OCR Evaluation/Analysis/Results"
 
 # --- Ensure output directory exists ---
@@ -11,7 +11,7 @@ os.makedirs(OUTPUT_DIR, exist_ok=True)
 
 # --- Generate timestamped filename ---
 timestamp = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
-OUTPUT_FILE = os.path.join(OUTPUT_DIR, f"gpt5_eval_output_avgs_{timestamp}.csv")
+OUTPUT_FILE = os.path.join(OUTPUT_DIR, f"deepseek_eval_output_avgs_{timestamp}.csv")
 
 # --- Load CSV ---
 df = pd.read_csv(INPUT_FILE)

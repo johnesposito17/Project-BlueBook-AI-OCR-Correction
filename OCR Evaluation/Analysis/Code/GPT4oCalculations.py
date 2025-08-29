@@ -16,33 +16,44 @@ OUTPUT_FILE = os.path.join(OUTPUT_DIR, f"gpt4o_eval_output_avgs_{timestamp}.csv"
 # --- Load CSV ---
 df = pd.read_csv(INPUT_FILE)
 
-# --- Calculate averages for each prompt ---
-for prompt in range(1, 4):  # Prompts 1, 2, 3
-    # CER columns
-    cer_cols = [f"CER_Prompt{prompt}_Trial{i}_vHuman" for i in range(1, 4)]
-    # Time columns
-    time_cols = [f"Time_Prompt{prompt}_Trial{i}" for i in range(1, 4)]
-    
-    # Create new average columns
-    df[f"Avg_CER_Prompt{prompt}"] = df[cer_cols].mean(axis=1, skipna=True)
-    df[f"Avg_Time_Prompt{prompt}"] = df[time_cols].mean(axis=1, skipna=True)
+# --- Flatten all trials into long-form for CER and Time ---
+records = []
+for prompt in range(1, 4):
+    for trial in range(1, 4):
+        cer_col = f"CER_Prompt{prompt}_Trial{trial}_vHuman"
+        time_col = f"Time_Prompt{prompt}_Trial{trial}"
+        
+        subset = df[["NAID", cer_col, time_col]].copy()
+        subset = subset.rename(columns={
+            cer_col: "CER",
+            time_col: "Time"
+        })
+        subset["Prompt"] = prompt
+        subset["Trial"] = trial
+        records.append(subset)
 
-# --- Keep only NAID and new average columns ---
-keep_cols = ["NAID"] + [f"Avg_CER_Prompt{p}" for p in range(1, 4)] + [f"Avg_Time_Prompt{p}" for p in range(1, 4)]
-df_out = df[keep_cols]
+# Combine into one long DataFrame
+df_long = pd.concat(records, ignore_index=True)
 
-# --- Round all numeric values to 3 decimal places ---
-df_out = df_out.round(3)
+# --- Compute prompt-level averages across ALL NAIDs and ALL trials ---
+summary = df_long.groupby("Prompt").agg(
+    Avg_CER=("CER", "mean"),
+    Std_CER=("CER", "std"),
+    Avg_Time=("Time", "mean"),
+    Std_Time=("Time", "std")
+).reset_index()
 
-# --- Save updated CSV ---
-df_out.to_csv(OUTPUT_FILE, index=False, encoding="utf-8")
+# --- Round values ---
+summary = summary.round(3)
 
-# --- Print overall averages and std devs (excluding NAID) ---
-col_means = df_out.drop(columns=["NAID"]).mean().round(3)
-col_stds = df_out.drop(columns=["NAID"]).std().round(3)
+# --- Save summary CSV ---
+summary.to_csv(OUTPUT_FILE, index=False, encoding="utf-8")
 
-print("\n📊 Overall Column Statistics:")
-for col in col_means.index:
-    print(f"{col}: mean = {col_means[col]}, std = {col_stds[col]}")
+# --- Print results like before ---
+print("\n📊 Overall Column Statistics (trial-level across all NAIDs):")
+for _, row in summary.iterrows():
+    print(f"Prompt {int(row['Prompt'])}: "
+          f"CER mean = {row['Avg_CER']}, std = {row['Std_CER']} | "
+          f"Time mean = {row['Avg_Time']}, std = {row['Std_Time']}")
 
 print(f"\n✅ Finished! New file saved at: {OUTPUT_FILE}")
