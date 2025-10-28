@@ -1,18 +1,18 @@
-**Motivation**
-[Project Blue Book](https://en.wikipedia.org/wiki/Project_Blue_Book) (1952–1969) was the U.S. Air Force's third official investigation into UFOs. As of April 24th, 2025, Blue Book—which consists of over 100,000 pages of documented sightings and investigations of UFOs—has been made publicly available through the National Archives.
+# Study of Post-OCR Correction of Government Documents through LLMs
 
-However, the documents were digitized using outdated OCR (Optical Character Recognition) technology, resulting in extremely poor-quality (and in many cases, completely illegible) digitized versions. This, combined with their vast size and complicated organizational scheme, means that despite their release, the general public is still largely unaware of the 12,618 reported sightings—701 of which remain unexplained.
+## TLDR
 
-The code is generalizable file units —such as the JFK or MLK Jr. files— making them readable and searchable as well. By benchmarking the performance of different models and prompts, we also hope to contribute to the ongoing research of AI-based post-OCR correction of historical documents.
+## Process
+- Wrote Python scripts to web scrape thousands of historical documents digitized using OCR (Optical Character Recognition) via National Archives API
+- Used 7 LLMs with 3 different prompts to perform comparative study on speed, accuracy, and cost of each prompt-model combination
+- Manually transcribed 100 randomly sampled pages of Project Bluebook
+- Used modified Levenstein distance to calculate Character Error Rate between Model-Prompt Combo outputs and ground truth transcriptions
+  
 
-**Process**
-Our code leverages Large Language Models developed by OpenAI, Google, Meta, and DeepSeek to correct the documents’ poor OCR output. These post-OCR corrections not only improve the readability of the documents, but using Google Looker [we have made them searchable on our website](https://sites.google.com/view/project-blue-book-ai-restored/search).
-
-[Explanation of our AI pipeline](https://sites.google.com/view/project-blue-book-ai-restored/restoration-process) can be found our website as well.
-
-**How Can You Contribute**
-These Post OCR corrections require hundreds of thousands of API requests that cost money. Please consider [donating](https://buymeacoffee.com/johnsespost) to help us cover the cost of the API requests.  Donations of all sizes are greatly appreciated.
-
-**Project Structure**
-
-N/A
+ ## Related Endevours
+- Formal research paper currently in-progress
+- One of 4 UW-Madison students nominated to attend US Naval Academy’s 2025 NASEC Conference on AI to present work
+- Used Google Looker to make the restored versions of [Project Bluebook]([url](https://sites.google.com/view/project-blue-book-ai-restored/home/)) and [MLK Jr. Files]([url](https://sites.google.com/view/mlk-files-ai-restored/)) searchable for the first time ever.
+- Created the [AI Archivist Podcast]([url](https://open.spotify.com/show/5yOR7mBE2mFAtZHlDgKtGa?si=436a5f14ceaa4b90)) to present discuss interesting stories related to MLK Jr. files.
+- [Made the Epstein files searchable]([url](https://sites.google.com/view/epstein-extracted/)) albeit using a pipeline that addressed different challenges (the documents themselves were reOCRed entirely as opposed to correcting a preexisting OCR
+  
