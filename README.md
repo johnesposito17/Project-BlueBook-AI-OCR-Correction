@@ -12,7 +12,7 @@
  ## Related Endevours
 - Formal research paper currently in-progress
 - One of 4 UW-Madison students nominated to attend US Naval Academy’s 2025 NASEC Conference on AI to present work
-- Used Google Looker to make the restored versions of [Project Bluebook]([url](https://sites.google.com/view/project-blue-book-ai-restored/home/)) and [MLK Jr. Files]([url](https://sites.google.com/view/mlk-files-ai-restored/)) searchable for the first time ever.
+- Used Google Looker to make the restored versions of [Project Bluebook](https://sites.google.com/view/project-blue-book-ai-restored/home/) and [MLK Jr. Files]([url](https://sites.google.com/view/mlk-files-ai-restored/)) searchable for the first time ever.
 - Created the [AI Archivist Podcast]([url](https://open.spotify.com/show/5yOR7mBE2mFAtZHlDgKtGa?si=436a5f14ceaa4b90)) to present discuss interesting stories related to MLK Jr. files.
 - [Made the Epstein files searchable]([url](https://sites.google.com/view/epstein-extracted/)) albeit using a pipeline that addressed different challenges (the documents themselves were reOCRed entirely as opposed to correcting a preexisting OCR
   
