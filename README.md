@@ -17,4 +17,5 @@ We used LLMs to restore low quality OCR (Optical Character Recognition) of over 
 - Used Google Looker to make the restored versions of [Project Bluebook](https://sites.google.com/view/project-blue-book-ai-restored/home/) and [MLK Jr. Files](https://sites.google.com/view/mlk-files-ai-restored/) searchable for the first time ever.
 - Created the [AI Archivist Podcast](https://open.spotify.com/show/5yOR7mBE2mFAtZHlDgKtGa?si=7776ad36385c4f30) discussing interesting stories related to MLK Jr. files.
 - [Made the Epstein files searchable](https://sites.google.com/view/epstein-extracted/) albeit using a pipeline that addressed different challenges (the documents themselves were reOCRed entirely as opposed to correcting a preexisting OCR)
-  
+
+## Results
