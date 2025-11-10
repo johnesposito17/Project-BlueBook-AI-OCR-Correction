@@ -1,3 +1,4 @@
+"""Calculates Character Error Rate between Deepseek's Post-OCR Correction and Orignal OCR of 100 sample pages"""
 import string_comparison
 import pandas as pd
 import os

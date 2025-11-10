@@ -1,3 +1,7 @@
+"""Loads 3 different correction prompts
+Sends OCR text to Gemini for correction (3 trials per prompt = 9 corrections per document)
+Compares corrections against human-transcribed ground truth text using Character Error Rate (CER)
+Records the corrected text, CER scores, and processing time"""
 import pandas as pd
 import os
 import time

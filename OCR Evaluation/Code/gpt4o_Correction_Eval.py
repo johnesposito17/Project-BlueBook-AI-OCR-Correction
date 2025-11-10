@@ -1,3 +1,8 @@
+"""Loads 3 different correction prompts
+Sends OCR text to GPT-4o for correction (3 trials per prompt = 9 corrections per document)
+Compaeres corrections against human-verified text using Character Error Rate (CER)
+Records the corrected text, CER scores, and processing time"""
+
 import pandas as pd
 import os
 import time
