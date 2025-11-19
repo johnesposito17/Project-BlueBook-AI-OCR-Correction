@@ -19,7 +19,7 @@ We used LLMs to restore low quality OCR (Optical Character Recognition) of over 
 - [Made the Epstein files searchable](https://sites.google.com/view/epstein-extracted/) albeit using a pipeline that addressed different challenges (the documents themselves were reOCRed entirely as opposed to correcting a preexisting OCR)
 
 
-## Results
+## Model-Prompt Combination Performances
 
 Character Error Rate and Computation Time for all model-prompt pairs.  The mean CER between the original OCR and the ground truth for the 100 documents we sampled was 0.276, with a standard deviation of 0.323, which even some of the least effective models were easily able to outperform.  GPT 4o combined with the expert prompt (highlighted in green) acheived the lowest CER while Gemini 2.5 Flash-Lite with the Wikipedia prompt was the quickest.
  
