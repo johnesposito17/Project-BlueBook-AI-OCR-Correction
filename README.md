@@ -20,3 +20,4 @@ We used LLMs to restore low quality OCR (Optical Character Recognition) of over 
 
 ## Results
 
+<img width="625" height="323" alt="OCR Results Table" src="https://github.com/user-attachments/assets/9faabaa0-bee0-4fa2-938b-10fcd4c81e43" />
