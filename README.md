@@ -1,4 +1,4 @@
-# Study of Post-OCR Correction of Government Documents through LLMs
+# Study of Post-OCR Correction of Government Documents using LLMs
 
 ## TLDR
 We used LLMs to restore low quality OCR (Optical Character Recognition) of over 100,000 historical documents on the National Archives website and made the restored versions searchable on Google Looker.
