@@ -6,7 +6,7 @@ We used LLMs to restore low quality OCR (Optical Character Recognition) of over 
 ## Process
 - Wrote Python scripts to web scrape thousands of historical documents digitized using OCR (Optical Character Recognition) via National Archives API
 - Wrote scripts to correct errors in the files using Open AI, Gemini, and Deepseek APIs
-- Used 7 different models with 3 different prompts to perform comparative study on speed, accuracy, and cost of each prompt-model combination
+- Used 7 different models with [3 different prompts](Prompts) to perform comparative study on speed, accuracy, and cost of each prompt-model combination
 - Manually transcribed 100 randomly sampled pages of Project Bluebook
 - Used modified Levenstein distance to calculate Character Error Rate between Model-Prompt Combo outputs and ground truth transcriptions
   
