@@ -11,7 +11,7 @@ We used LLMs to restore low quality OCR (Optical Character Recognition) of over 
 - Used modified Levenstein distance to calculate Character Error Rate between Model-Prompt Combo outputs and ground truth transcriptions
   
 
- ## Related Endevours
+ ## Related Endeavours
 - Formal research paper currently in-progress
 - One of 4 UW-Madison students nominated to attend US Naval Academy’s 2025 NASEC Conference on AI to present work
 - Used Google Looker to make the restored versions of [Project Bluebook](https://sites.google.com/view/project-blue-book-ai-restored/home/) and [MLK Jr. Files](https://sites.google.com/view/mlk-files-ai-restored/) searchable for the first time ever.
