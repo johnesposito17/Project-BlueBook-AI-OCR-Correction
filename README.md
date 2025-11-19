@@ -18,7 +18,6 @@ We used LLMs to restore low quality OCR (Optical Character Recognition) of over 
 - Created the [AI Archivist Podcast](https://open.spotify.com/show/5yOR7mBE2mFAtZHlDgKtGa?si=7776ad36385c4f30) discussing interesting stories related to MLK Jr. files.
 - [Made the Epstein files searchable](https://sites.google.com/view/epstein-extracted/) albeit using a pipeline that addressed different challenges (the documents themselves were reOCRed entirely as opposed to correcting a preexisting OCR)
 
-## Code
 
 ## Results
 
@@ -26,3 +25,10 @@ Character Error Rate and Computation Time for all model-prompt pairs.  The mean 
  
 
 <img width="625" height="323" alt="OCR Results Table" src="https://github.com/user-attachments/assets/9faabaa0-bee0-4fa2-938b-10fcd4c81e43" />
+
+## Cost Breakdown
+
+The cheapest model option was found to be DeepSeek, and the most expensive was GPT-4o.  Gemini was relatively expensive as well (with $0.30 per 1M input tokens and $2.50 per 1M output); however, Google provides a $250 credit to developers, and so for our purposes, they are essentially free.
+
+<img width="634" height="499" alt="Cost Breakdown Table 2" src="https://github.com/user-attachments/assets/1f7b82ad-4620-43ed-b4f8-f415582f432f" />
+
