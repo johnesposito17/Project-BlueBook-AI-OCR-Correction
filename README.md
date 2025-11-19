@@ -20,4 +20,7 @@ We used LLMs to restore low quality OCR (Optical Character Recognition) of over 
 
 ## Results
 
+Character Error Rate and Computation Time for all model-prompt pairs.  The mean CER between the original OCR and the ground truth for the 100 documents we sampled was 0.276, with a standard deviation of 0.323, which even some of the least effective models were easily able to outperform.  GPT 4o combined with the expert prompt (highlighted in green) acheived the lowest CER while Gemini 2.5 Flash-Lite with the Wikipedia prompt was the quickest.
+ 
+
 <img width="625" height="323" alt="OCR Results Table" src="https://github.com/user-attachments/assets/9faabaa0-bee0-4fa2-938b-10fcd4c81e43" />
