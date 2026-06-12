@@ -29,6 +29,8 @@ Character Error Rate and computation time for all model-prompt pairs. The mean C
 <img width="625" height="323" alt="OCR Results Table" src="https://github.com/user-attachments/assets/9faabaa0-bee0-4fa2-938b-10fcd4c81e43" />
 
 > Full per-prompt averages are in `results/`. Run `python evaluation/calculate_averages.py results/<model>_results.csv` to regenerate them.
+>
+> For a breakdown by **document type** (Forms, Memos, Image/Maps, Articles), see [`results/type_analysis.md`](results/type_analysis.md).
 
 ## Cost Breakdown
 
@@ -62,6 +64,8 @@ The cheapest model option was found to be DeepSeek, and the most expensive was G
 │
 └── results/
     ├── ocr_baseline_cer.csv       Raw OCR vs. human CER for all 100 test pages
+    ├── type_analysis.md           Per-document-type CER breakdown (Forms, Memos, etc.)
+    ├── type_cer_detail.csv        Long-form CER data by NAID × model × prompt × type
     ├── gpt4o_results.csv          GPT-4o: 3 prompts × 3 trials × 100 pages
     ├── gpt4o_mini_results.csv     GPT-4o Mini results
     ├── gpt5_results.csv           GPT-5 results
