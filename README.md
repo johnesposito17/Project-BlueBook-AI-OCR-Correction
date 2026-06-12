@@ -17,7 +17,7 @@ This project uses LLMs to correct those OCR errors at scale, making the full doc
 
 **Related work:**
 - Formal research paper in progress
-- Presented at the US Naval Academy's NASEC 2025 Conference on AI (one of four UW–Madison nominees)
+- One of four UW–Madison students nominated to share findings at the Naval Academy's NASEC Conference
 - [AI Archivist Podcast](https://open.spotify.com/show/5yOR7mBE2mFAtZHlDgKtGa) — stories from the MLK Jr. files
 
 ---
