@@ -24,24 +24,17 @@ This project uses LLMs to correct those OCR errors at scale, making the full doc
 
 ## Results
 
-We manually transcribed 100 randomly sampled pages to create a ground truth dataset. Character Error Rate (CER) measures edit distance between corrected text and that ground truth — lower is better, 0 is a perfect match.
+Character Error Rate and computation time for all model-prompt pairs. The mean CER between the original OCR and the ground truth for the 100 documents we sampled was 0.276, with a standard deviation of 0.323 — poor enough that even the least effective models were easily able to outperform it. GPT-4o combined with the expert prompt achieved the lowest CER while Gemini 2.5 Flash-Lite with the Wikipedia prompt was the quickest.
 
-**Baseline:** The raw OCR had a mean CER of **0.276 ± 0.323** against human transcriptions — poor enough that even the weakest models showed meaningful improvement.
-
-| Model | Prompt | Avg CER | Avg Time (s) |
-|---|---|---|---|
-| **GPT-4o** | **Expert** | **lowest** | — |
-| GPT-4o | Wikipedia Context | — | — |
-| GPT-4o | Basic | — | — |
-| GPT-4o Mini | Expert | — | — |
-| GPT-5 | Expert | — | — |
-| Gemini 2.5 Flash | Expert | — | — |
-| Gemini 2.5 Flash-Lite | Wikipedia Context | — | fastest |
-| DeepSeek Chat | Expert | — | — |
+<img width="625" height="323" alt="OCR Results Table" src="https://github.com/user-attachments/assets/9faabaa0-bee0-4fa2-938b-10fcd4c81e43" />
 
 > Full per-prompt averages are in `results/`. Run `python evaluation/calculate_averages.py results/<model>_results.csv` to regenerate them.
 
-**Cost:** DeepSeek was cheapest per token; GPT-4o was most expensive. Gemini carried a ~$0.30/1M input token cost but Google's $250 developer credit made it effectively free for this project.
+## Cost Breakdown
+
+The cheapest model option was found to be DeepSeek, and the most expensive was GPT-4o. Gemini was relatively expensive as well (with $0.30 per 1M input tokens and $2.50 per 1M output); however, Google provides a $250 credit to developers, and so for our purposes, they are essentially free.
+
+<img width="634" height="499" alt="Cost Breakdown Table" src="https://github.com/user-attachments/assets/1f7b82ad-4620-43ed-b4f8-f415582f432f" />
 
 ---
 
