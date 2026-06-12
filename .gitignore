@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+
+# Environment / secrets — never commit API keys
+.env
+*.env
+
+# Large output files — re-generate locally
+OCR_Correction/BlueBookLLMCorrections.csv
+
+# macOS
+.DS_Store
+.Rhistory

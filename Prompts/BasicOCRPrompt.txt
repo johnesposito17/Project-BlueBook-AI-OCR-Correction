@@ -1,1 +1,0 @@
-This text was extracted from a document using optical character recognition (OCR) software and it contains OCR errors, especially when the original document was illegible. Can you use this information to fix the OCR errors in the text?  Return only the corrected text without adding any other comments.
