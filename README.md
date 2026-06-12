@@ -8,7 +8,7 @@ Restoring 100,000 pages of declassified US Air Force UFO records using large lan
 
 Project Blue Book was the US Air Force's systematic study of UFO sightings, running from 1947 to 1969. The National Archives holds over 100,000 pages of the original case files — all digitized, but with OCR (Optical Character Recognition) quality that ranges from passable to completely garbled.
 
-This project uses LLMs to correct those OCR errors at scale, making the full document set searchable for the first time. We evaluated six models across three prompting strategies on 100 hand-transcribed pages to find the best-performing combination before running the correction pipeline on the entire corpus.
+This project uses LLMs to correct those OCR errors at scale, making the full document set searchable for the first time. We evaluated six models across three prompting strategies on 100 hand-transcribed pages to find the best-performing combination, then ran the correction pipeline on the full 57,434-page corpus — making approximately **9.8 million character corrections** across 62 million total characters.
 
 **Results are live and searchable:**
 - [Project Blue Book — AI Restored](https://sites.google.com/view/project-blue-book-ai-restored/home/)
@@ -16,7 +16,7 @@ This project uses LLMs to correct those OCR errors at scale, making the full doc
 - [Epstein Files — Searchable](https://sites.google.com/view/epstein-extracted/)
 
 **Related work:**
-- Formal research paper in progress
+- Research paper drafted (UW–Madison)
 - One of four UW–Madison students nominated to share findings at the Naval Academy's NASEC Conference
 - [AI Archivist Podcast](https://open.spotify.com/show/5yOR7mBE2mFAtZHlDgKtGa) — stories from the MLK Jr. files
 
@@ -24,17 +24,31 @@ This project uses LLMs to correct those OCR errors at scale, making the full doc
 
 ## Results
 
-Character Error Rate and computation time for all model-prompt pairs. The mean CER between the original OCR and the ground truth for the 100 documents we sampled was 0.276, with a standard deviation of 0.323 — poor enough that even the least effective models were easily able to outperform it. GPT-4o combined with the expert prompt achieved the lowest CER while Gemini 2.5 Flash-Lite with the Wikipedia prompt was the quickest.
+Character Error Rate and computation time for all model-prompt pairs. The mean CER between the original OCR and the ground truth for the 100 documents we sampled was **0.276** (std 0.323) — poor enough that even the least effective models were easily able to outperform it. GPT-4o combined with the expert prompt achieved the lowest CER of **0.179** while Gemini 2.5 Flash-Lite with the Wikipedia prompt was the quickest.
 
 <img width="625" height="323" alt="OCR Results Table" src="https://github.com/user-attachments/assets/9faabaa0-bee0-4fa2-938b-10fcd4c81e43" />
 
 > Full per-prompt averages are in `results/`. Run `python evaluation/calculate_averages.py results/<model>_results.csv` to regenerate them.
->
-> For a breakdown by **document type** (Forms, Memos, Image/Maps, Articles), see [`results/type_analysis.md`](results/type_analysis.md).
+
+### Document type breakdown
+
+The overall mean CER masks a strongly bimodal distribution. The 100-page sample spans six document categories with very different baseline difficulty and different amenability to LLM correction:
+
+| Document Type | N | Baseline CER | GPT-4o Expert CER | Reduction |
+|---|---|---|---|---|
+| Form | 53 | 0.255 | 0.120 | −53% |
+| Memo | 30 | 0.208 | 0.140 | −33% |
+| Article | 6 | 0.448 | 0.342 | −24% |
+| Summary Table | 3 | 0.159 | 0.198 | +24% |
+| Image/Map | 7 | 0.670 | 0.657 | −2% |
+
+**Forms** (53% of the sample) benefit most from the expert prompt — structured fields give the model strong anchors. **Memos** are single-column body text and are the easiest category for every model. **Image/Map** pages contain no transcribable text; CER hovers near 1.0 regardless of model and these pages account for most of the distribution's upper tail. **Newspaper articles** are the second-hardest: multi-column layouts and varied typesetting confuse OCR severely and LLMs only partially recover them. Excluding Image/Map pages, the text-bearing documents have a baseline CER of 0.238 and GPT-4o (expert) brings that to 0.135.
+
+Full per-type statistics and long-form NAID-level data: [`results/type_analysis.md`](results/type_analysis.md) · [`results/type_cer_detail.csv`](results/type_cer_detail.csv)
 
 ## Cost Breakdown
 
-The cheapest model option was found to be DeepSeek, and the most expensive was GPT-4o. Gemini was relatively expensive as well (with $0.30 per 1M input tokens and $2.50 per 1M output); however, Google provides a $250 credit to developers, and so for our purposes, they are essentially free.
+Correcting the full 57,434-page corpus costs between **$9.03** (Gemini 2.5 Flash-Lite) and **$266.78** (GPT-4o) — a 30× price differential for roughly comparable output quality on text-bearing pages. DeepSeek is the cheapest non-Google option. Gemini carries a list price comparable to GPT-4o Mini, but Google provides a $250 developer credit, making it effectively free for projects of this scale.
 
 <img width="634" height="499" alt="Cost Breakdown Table" src="https://github.com/user-attachments/assets/1f7b82ad-4620-43ed-b4f8-f415582f432f" />
 
