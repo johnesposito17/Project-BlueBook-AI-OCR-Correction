@@ -16,8 +16,9 @@ This project uses LLMs to correct those OCR errors at scale, making the full doc
 - [Epstein Files — Searchable](https://sites.google.com/view/epstein-extracted/)
 
 **Related work:**
-- Research paper drafted (UW–Madison)
-- One of four UW–Madison students nominated to share findings at the Naval Academy's NASEC Conference
+- Research paper recently submitted to Liminia journal of UAP studies
+- Accepted to UPenn's National Research Conference to present process and results
+- Nominated to share findings at the Naval Academy's NASEC AI Conference
 - [AI Archivist Podcast](https://open.spotify.com/show/5yOR7mBE2mFAtZHlDgKtGa) — stories from the MLK Jr. files
 
 ---
